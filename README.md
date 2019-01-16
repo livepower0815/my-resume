@@ -13,7 +13,7 @@
 * **Firebase** -  API 整合使用、雲端 Data 存放、會員資料管理及驗證
 
 ### 其他
-* **Webpack** - 轉換 ES6、SASS、BABEL 檔案，輕鬆打包網站
+* **Webpack** - 轉換 ES6、SASS、BABEL 檔案，打包網站
 * **git** - 透過 Github 進行團隊協作、Github-Pages 前端部署、Heroku 後端部署
 * **ES6** - 了解 Promise 非同步處理、解構賦值、其餘參數等概念
 * 使用搭配 MVC、MVVM 開發風格
