@@ -16,6 +16,7 @@
 * **Webpack** - 轉換 ES6、SASS、BABEL 檔案，打包網站
 * **git** - 透過 Github 進行團隊協作、Github-Pages 前端部署、Heroku 後端部署
 * **ES6** - 了解 Promise 非同步處理、解構賦值、其餘參數等概念
+* **Photoshop** - 圖片去背、切版、調色處理
 * 使用搭配 MVC、MVVM 開發風格
 
 ## 個人作品(Porgram Project)
