@@ -20,8 +20,8 @@
 * 使用搭配 MVC、MVVM 開發風格
 
 ## 個人作品(Porgram Project)
-1. [**個人網站-待製作**](https://livepower0815.github.io/my-vue-cli3/dist/)
-    * [**github專案-待製作**](https://github.com/livepower0815/my-vue-cli3)
+1. [**個人網站-待製作**](https://livepower0815.github.io/my-resume/dist/)
+    * [**github專案-待製作**](https://github.com/livepower0815/my-resume)
     * 使用 Vue cli、webpack 開發擁有購物車及結帳系統的 SPA 網頁
     * 使用 Bootstrap4、SASS 製作 RWD 網頁
     * 使用 axios 串接後端 api 邏輯
