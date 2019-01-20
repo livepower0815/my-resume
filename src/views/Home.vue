@@ -5,7 +5,7 @@
       <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03">
         <span><i class="fas fa-list-ul"></i></span>
       </button>
-      <a class="navbar-brand" href="/"><i class="fas fa-feather-alt"></i> Kerry Resume</a>
+      <a class="navbar-brand" href="/"><i class="fas fa-feather-alt"></i> Chowy Resume</a>
 
       <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
@@ -34,7 +34,7 @@
         <div class="row">
           <div class="col-md-6">
             <div class="top-content d-flex justify-content-center">
-              <h1 class="text_effect">Hello I'm Kerry </h1>
+              <h1 class="text_effect">Hello I'm Chowy </h1>
             </div>
           </div>
           <div class="col-md-6  d-flex justify-content-center">
@@ -48,7 +48,7 @@
     </div>
 
     <!-- 這裡是 About  -->
-    <div id="about" :style="{backgroundPosition:aboutScroll}">
+    <div id="about">
       <div class="container">
         <h1 class="myTitle-white">About Myself</h1>
         <div class="row">
@@ -57,7 +57,7 @@
           </div>
           <div class="col-md-6 d-flex align-items-center">
             <div class="p-4 my-3 bgWhite">
-              <p>Hello 您好，我叫做 陳宏宇 ( Kerry )</p>
+              <p>Hello 您好，我叫做 陳宏宇 ( Chowy )</p>
               <p>2017年開始為自己定了前端的職涯方向，</p>
               <p>這段期間由於家庭因素的關係只能利用下班時間去做線上學習，</p>
               <p>目前已能獨立以Vue.js & Node.js架設商業的金流網頁，</p>
@@ -257,7 +257,7 @@
         <h1 class="myTitle-blue">Projects</h1>
         <div class="row">
           <div class="col-sm-4">
-            <div class="p-3 transform_3d">
+            <div class="transform_3d">
               <h3 class="text-center py-4">猴寶拍拍-購物網</h3>
               <div class="myCard">
                 <div class="myCard_img">
@@ -269,7 +269,7 @@
             </div>
           </div>
           <div class="col-sm-4">
-            <div class="p-3 transform_3d">
+            <div class="transform_3d">
               <h3 class="text-center py-4">夢想家 Blog</h3>
               <div class="myCard">
                 <div class="myCard_img">
@@ -280,7 +280,7 @@
             </div>
           </div>
           <div class="col-sm-4">
-            <div class="p-3 transform_3d">
+            <div class="transform_3d">
               <h3 class="text-center py-4">BMI 計算器</h3>
               <div class="myCard">
                 <div class="myCard_img">
@@ -292,7 +292,7 @@
             </div>
           </div>
           <div class="col-sm-4">
-            <div class="p-3 transform_3d">
+            <div class="transform_3d">
               <h3 class="text-center py-4">會議室預約系統</h3>
               <div class="myCard">
                 <div class="myCard_img">
@@ -304,7 +304,7 @@
             </div>
           </div>
           <div class="col-sm-4">
-            <div class="p-3 transform_3d">
+            <div class="transform_3d">
               <h3 class="text-center py-4">CSS 貪食蛇</h3>
               <div class="myCard">
                 <div class="myCard_img">
@@ -316,7 +316,7 @@
             </div>
           </div>
           <div class="col-sm-4">
-            <div class="p-3 transform_3d">
+            <div class="transform_3d">
               <h3 class="text-center py-4">戰船遊戲</h3>
               <div class="myCard">
                 <div class="myCard_img">
@@ -366,55 +366,55 @@
       <div class="container">
         <h1 class="myTitle-white">Experience</h1>
         <div class="row d-flex justify-content-center py-4">
-          <div class="col-md-4 d-flex justify-content-md-end">
+          <div class="col-md-3 d-flex justify-content-md-end">
             <div class="exImg" style="width: 64px;">
-              <img class="img-fluid" src="../assets/experience/iconfinder_CarGrey_22990.png" alt="img">
+              <img class="img-fluid" src="../assets/experience/car.png" alt="img">
             </div>
           </div>
           <div class="col-md-8">
             <div class="exContent text-white">
-              <h4 class="pb-3">國瑞汽車 | 品管員 | 2014 年 7 月 - 至今</h4>
+              <h4 class="pb-4">國瑞汽車 | 品管員 | 2014 年 7 月 - 至今</h4>
               <p><i class="fas fa-tools pr-3"></i> 完成車檢驗</p>
               <p><i class="fas fa-tools pr-3"></i> QCC品管圈活動</p>
             </div>
           </div>
         </div>
         <div class="row d-flex justify-content-center py-4">
-          <div class="col-md-4 d-flex justify-content-md-end">
+          <div class="col-md-3 d-flex justify-content-md-end">
             <div class="exImg" style="width: 64px;">
               <img class="img-fluid" src="../assets/experience/iconfinder_Phone Red_41319.png" alt="img">
             </div>
           </div>
           <div class="col-md-8">
             <div class="exContent text-white">
-              <h4 class="pb-3">悅城科技 | 品保工程師 | 2013 年 10 月 - 2014 年 2 月</h4>
+              <h4 class="pb-4">悅城科技 | 品保工程師 | 2013 年 10 月 - 2014 年 2 月</h4>
               <p><i class="fas fa-tools pr-3"></i> 薄化面板成品良率管控</p>
               <p><i class="fas fa-tools pr-3"></i> 面板廠相關規範制定整合</p>
             </div>
           </div>
         </div>
         <div class="row d-flex justify-content-center py-4">
-          <div class="col-md-4 d-flex justify-content-md-end">
+          <div class="col-md-3 d-flex justify-content-md-end">
             <div class="exImg" style="width: 64px;">
-              <img class="img-fluid" src="../assets/experience/iconfinder_modern-building_1989009.png" alt="img">
+              <img class="img-fluid" src="../assets/experience/test.png" alt="img">
             </div>
           </div>
           <div class="col-md-8">
             <div class="exContent text-white">
-              <h4 class="pb-3">富捷實驗室 | 品保工程師 | 2011 年 10 月 - 2013 年 8 月</h4>
+              <h4 class="pb-4">富捷實驗室 | 品保工程師 | 2011 年 10 月 - 2013 年 8 月</h4>
               <p><i class="fas fa-tools pr-3"></i> 混泥土、鋼筋品質檢測</p>
             </div>
           </div>
         </div>
         <div class="row d-flex justify-content-center py-4">
-          <div class="col-md-4 d-flex justify-content-md-end">
+          <div class="col-md-3 d-flex justify-content-md-end">
             <div class="exImg" style="width: 64px;">
-              <img class="img-fluid" src="../assets/experience/iconfinder_tools-box_307364.png" alt="img">
+              <img class="img-fluid" src="../assets/experience/box.png" alt="img">
             </div>
           </div>
           <div class="col-md-8">
             <div class="exContent text-white">
-              <h4 class="pb-3">NEC物流公司 | 倉儲管理 | 2010 年 7 月 - 2011 年 7 月</h4>
+              <h4 class="pb-4">NEC物流公司 | 倉儲管理 | 2010 年 7 月 - 2011 年 7 月</h4>
               <p><i class="fas fa-tools pr-3"></i> 大樓倉庫進出貨處理</p>
               <p><i class="fas fa-tools pr-3"></i> 倉庫空間規劃</p>
             </div>
@@ -429,6 +429,12 @@
         <h1 class="myTitle-blue">Contact</h1>
       </div>
     </div>
+
+    <!-- 這裡是 Footer  -->
+    <div id="footer">
+      <p class="text-white">Copyright © Chowy Resume Website 宏宇簡歷網頁</p>
+    </div>
+
 
   </div>
 </template>
@@ -653,6 +659,7 @@
 
   .transform_3d {
     perspective: 1000px;
+    padding: 40px 10px;
   }
 
   .myCard {
@@ -674,8 +681,10 @@
 
 
   .bgWhite {
-    background: rgba(255, 255, 255, 0.87);
+    background: rgba(65, 65, 65, 0.568);
     border-radius: 10px;
+    color: white;
+    text-shadow: 3px 3px 6px #000000;
   }
 
   .img-profile {
@@ -752,9 +761,10 @@
   #about {
     padding-top: 60px;
     background: rgb(245, 245, 245);
-    padding-bottom: 80px;
+    padding-bottom: 180px;
     background-image: url("../assets/about.jpeg");
     background-size: cover;
+    background-position: center center;
   }
 
   #skill {
@@ -768,7 +778,9 @@
   #works {
     padding-top: 60px;
     background: rgb(238, 238, 238);
-    padding-bottom: 100px;
+    padding-bottom: 130px;
+    background-image: linear-gradient(to right, rgb(145, 145, 145), rgb(214, 214, 214),rgb(214, 214, 214),rgb(145, 145, 145));
+
   }
 
   #works h3 {
@@ -790,5 +802,18 @@
     padding-top: 60px;
     background: rgb(238, 238, 238);
     height: 1000px;
+  }
+
+  #footer {
+    background: rgb(37, 43, 66);
+    height: 15vh;
+    position: relative;
+  }
+
+  #footer p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
   }
 </style>

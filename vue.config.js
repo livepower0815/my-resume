@@ -1,5 +1,5 @@
 module.exports = {
-  baseUrl: '/my-resume/dist/',
+  publicPath: '/my-resume/dist/',
   outputDir: undefined,
   assetsDir: undefined,
   runtimeCompiler: undefined,
