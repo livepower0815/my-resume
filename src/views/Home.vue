@@ -5,7 +5,7 @@
       <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03">
         <span><i class="fas fa-list-ul"></i></span>
       </button>
-      <a class="navbar-brand" href="/"><i class="fas fa-feather-alt"></i> Chowy Resume</a>
+      <a class="navbar-brand" href="/"><i class="fas fa-feather-alt"></i> Kerry Resume</a>
 
       <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
@@ -34,7 +34,7 @@
         <div class="row">
           <div class="col-md-6">
             <div class="top-content d-flex justify-content-center">
-              <h1 class="text_effect">Hello I'm Chowy </h1>
+              <h1 class="text_effect pb-5">Hello I'm Kerry </h1>
             </div>
           </div>
           <div class="col-md-6  d-flex justify-content-center">
@@ -57,9 +57,8 @@
           </div>
           <div class="col-md-6 d-flex align-items-center">
             <div class="p-4 my-3 bgWhite">
-              <p>Hello 您好，我叫做 陳宏宇 ( Chowy )</p>
+              <p>Hello 您好，我叫做 陳宏宇 ( Kerry )</p>
               <p>2017年開始為自己定了前端的職涯方向，</p>
-              <p>這段期間由於家庭因素的關係只能利用下班時間去做線上學習，</p>
               <p>目前已能獨立以Vue.js & Node.js架設商業的金流網頁，</p>
               <p>世上沒有困難的事情，</p>
               <p>只有熱誠跟興趣才能長久維持自己向前的動力。</p>
@@ -195,7 +194,7 @@
             <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
-                  <img class="mt-3" src="../assets/skill/webpack.png" alt="Avatar" style="width:150px;height:170px;">
+                  <img class="mt-3" src="../assets/skill/webpack.png" alt="Avatar" style="width:130px;height:150px;">
                 </div>
                 <div class="flip-card-back">
                   <h2>Webpack</h2>
@@ -208,7 +207,7 @@
             <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
-                  <img class="mt-3" src="../assets/skill/git.png" alt="Avatar" style="width:150px;height:150px;">
+                  <img class="mt-3" src="../assets/skill/git.png" alt="Avatar" style="width:130px;height:130px;">
                 </div>
                 <div class="flip-card-back">
                   <h2>Git</h2>
@@ -223,7 +222,7 @@
             <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
-                  <img class="mt-3" src="../assets/skill/ES6.png" alt="Avatar" style="width:150px;height:170px;">
+                  <img class="mt-3" src="../assets/skill/ES6.png" alt="Avatar" style="width:120px;height:130px;">
                 </div>
                 <div class="flip-card-back">
                   <h2>ES6</h2>
@@ -236,7 +235,7 @@
             <div class="flip-card">
               <div class="flip-card-inner">
                 <div class="flip-card-front">
-                  <img class="mt-3" src="../assets/skill/rest.png" alt="Avatar" style="width:150px;height:150px;">
+                  <img class="mt-3" src="../assets/skill/rest.png" alt="Avatar" style="width:130px;height:130px;">
                 </div>
                 <div class="flip-card-back">
                   <h2>Other</h2>
@@ -256,7 +255,7 @@
       <div class="container">
         <h1 class="myTitle-blue">Projects</h1>
         <div class="row">
-          <div class="col-sm-4">
+          <div class="col-md-4">
             <div class="transform_3d">
               <h3 class="text-center py-4">猴寶拍拍-購物網</h3>
               <div class="myCard">
@@ -268,7 +267,7 @@
 
             </div>
           </div>
-          <div class="col-sm-4">
+          <div class="col-md-4">
             <div class="transform_3d">
               <h3 class="text-center py-4">夢想家 Blog</h3>
               <div class="myCard">
@@ -279,7 +278,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-4">
+          <div class="col-md-4">
             <div class="transform_3d">
               <h3 class="text-center py-4">BMI 計算器</h3>
               <div class="myCard">
@@ -291,7 +290,7 @@
 
             </div>
           </div>
-          <div class="col-sm-4">
+          <div class="col-md-4">
             <div class="transform_3d">
               <h3 class="text-center py-4">會議室預約系統</h3>
               <div class="myCard">
@@ -303,7 +302,7 @@
 
             </div>
           </div>
-          <div class="col-sm-4">
+          <div class="col-md-4">
             <div class="transform_3d">
               <h3 class="text-center py-4">CSS 貪食蛇</h3>
               <div class="myCard">
@@ -315,7 +314,7 @@
 
             </div>
           </div>
-          <div class="col-sm-4">
+          <div class="col-md-4">
             <div class="transform_3d">
               <h3 class="text-center py-4">戰船遊戲</h3>
               <div class="myCard">
@@ -424,9 +423,27 @@
     </div>
 
     <!-- 這裡是 Contact  -->
-    <div id="contact">
+    <div id="contact" :style="{backgroundPosition:contactScroll}">
       <div class="container">
-        <h1 class="myTitle-blue">Contact</h1>
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-6 text-center text-white">
+            <div class="contact_card">
+              <h1 class="py-4">Contact Me</h1>
+              <div class="row d-flex justify-content-center">
+                <div class="col-md-6">
+                  <div class="px-3">
+                    <img class="img-fluid img-thumbnail" src="../assets/flower.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+              <h3 class="py-3">宏宇 ( Kerry )</h3>
+              <h5 class="pb-3"><a href="mailto:livepower0815@gmail.com" class="text-white"><i class="fas fa-envelope"></i> livepower0815@gmail.com</a></h5>
+              <a href="https://www.facebook.com/profile.php?id=100000312843510" target="_blank"><i class="fab fa-facebook-square"></i></a>
+              <a href="https://github.com/livepower0815/my-resume" class="mx-5" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="#" target="_blank"><i class="fas fa-copyright"></i></a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -518,11 +535,11 @@
     computed: {
       bgImgScroll() {
         const vm = this;
-        return 0 + "px " + (vm.viewprotH - 200) / 2 + "px";
+        return 0 + "px " + (vm.viewprotH ) / 2 + "px";
       },
-      aboutScroll() {
+      contactScroll() {
         const vm = this;
-        return 0 + "px " + (vm.viewprotH + 700) / 2 + "px";
+        return 0 + "px " + (vm.viewprotH - vm.navLinksH.contact) + "px";
       },
       navActive() {
         const vm = this;
@@ -606,7 +623,7 @@
   }
 
   .myNav a.active {
-    color: rgb(255, 71, 71);
+    color: rgb(71, 227, 255);
   }
 
   .myShadow {
@@ -800,13 +817,30 @@
 
   #contact {
     padding-top: 60px;
-    background: rgb(238, 238, 238);
-    height: 1000px;
+    background-image: url('../assets/contact.jpeg');
+    background-size: cover;
+    padding-bottom: 130px;
+  }
+
+  .contact_card{
+    background-image: linear-gradient(to bottom right,rgb(0, 79, 153),rgb(0, 149, 155));
+    padding: 30px 0;
+    border-radius: 20px;
+    font-size: 40px;
+  }
+
+  .contact_card a {
+    color: white;
+    transition:all 0.4s;
+  }
+
+  .contact_card a:hover {
+    color: rgb(21, 252, 232);
   }
 
   #footer {
     background: rgb(37, 43, 66);
-    height: 15vh;
+    height: 20vh;
     position: relative;
   }
 
