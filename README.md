@@ -20,30 +20,31 @@
 * 使用搭配 MVC、MVVM 開發風格
 
 ## 個人作品(Porgram Project)
-1. [**個人網站-待製作**](https://livepower0815.github.io/my-resume/dist/)
-    * 使用 Vue cli、webpack 開發擁有購物車及結帳系統的 SPA 網頁
-    * 使用 Bootstrap4、SASS 製作 RWD 網頁
-    * 使用 axios 串接後端 api 邏輯
-    * 擁有可編輯上傳商品的後台 dashboard (如需後台帳密可洽詢本人)
+1. [**個人網站**](https://livepower0815.github.io/my-resume/dist/)
+    * 使用 Vue cli、webpack 開發
+    * Bootstrap4 製作 RWD 網頁
+    * 套件 vue-scrollto 製作頁面滑動
+    * v-bind style屬性 製作視差滾動
+    * transform 3D 製作互動效果
 
 2. [**MonkeyShot 猴寶拍拍-電子商務**](https://livepower0815.github.io/my-vue-cli3/dist/)
     * [**github專案**](https://github.com/livepower0815/my-vue-cli3)
-    * 使用 Vue cli、webpack 開發擁有購物車及結帳系統的 SPA 網頁
-    * 使用 Bootstrap4、SASS 製作 RWD 網頁
-    * 使用 axios 串接後端 api 邏輯
+    * Vue cli、webpack 開發擁有購物車及結帳系統的 SPA 網頁
+    * Bootstrap4、SASS 製作 RWD 網頁
+    * axios 串接後端 api 邏輯
     * 擁有可編輯上傳商品的後台 dashboard (如需後台帳密可洽詢本人)
 
 3. [**夢想家Blog**](https://limitless-wildwood-49993.herokuapp.com/)-(Heroku需喚醒請耐心等待一會)
     * [**github專案**](https://github.com/livepower0815/myBlogApp)
-    * 使用 node.js、express 開發的後端 Blog
-    * 使用 EJS 樣板渲染前端網頁
-    * 使用 Bootstrap4 製作 RWD 網頁
+    * node.js、express 開發的後端 Blog
+    * EJS 樣板渲染前端網頁
+    * Bootstrap4 製作 RWD 網頁
     * 整合 Firebase 完成會員功能、留言板功能
     * 擁有可編輯上傳文章的後台 dashboard (如需後台帳密可洽詢本人)
 
 4. [**會議室預約系統**](https://livepower0815.github.io/test1/meetingRoom/)
     * [**github專案**](https://github.com/livepower0815/test1/tree/master/meetingRoom)
-    * 使用 Bootstrap4 製作 RWD 網頁
+    * Bootstrap4 製作 RWD 網頁
     * 整合 Firebase 存取資料、渲染 TodoList
     * 自行撰寫 資料儲存格式、doubleBooking 驗證邏輯
 
@@ -59,9 +60,9 @@
 
 6. [**BMI 計算器**](https://livepower0815.github.io/test1/hexSchool/day17(BMI計算)/)
     * [**github專案**](https://github.com/livepower0815/test1/tree/master/hexSchool/day17(BMI計算)/)
-    * 使用 Vue 綁定雙向資料結構 開發 todolist
-    * 使用 Bootstrap4 製作 RWD 網頁
-    * 使用 Localstorage 儲存 list 資料
+    * Vue 綁定雙向資料結構 開發 todolist
+    * Bootstrap4 製作 RWD 網頁
+    * Localstorage 儲存 list 資料
 
 
 ## 關於我(About Me)

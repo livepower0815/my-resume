@@ -5,7 +5,7 @@
       <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03">
         <span><i class="fas fa-list-ul"></i></span>
       </button>
-      <a class="navbar-brand" href="/"><i class="fas fa-feather-alt"></i> Kerry Resume</a>
+      <a class="navbar-brand" href="#"><i class="fas fa-feather-alt"></i> Kerry Resume</a>
 
       <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
@@ -365,9 +365,10 @@
       <div class="container">
         <h1 class="myTitle-white">Experience</h1>
         <div class="row d-flex justify-content-center py-4">
-          <div class="col-md-3 d-flex justify-content-md-end">
-            <div class="exImg" style="width: 64px;">
-              <img class="img-fluid" src="../assets/experience/car.png" alt="img">
+          <div class="col-md-3 justify-content-md-end d-none d-md-flex">
+            <div class="position-relative exInner">
+              <img class="img-fluid exImg" src="../assets/experience/car.png" alt="img">
+              <div class="exLine"></div>
             </div>
           </div>
           <div class="col-md-8">
@@ -379,9 +380,10 @@
           </div>
         </div>
         <div class="row d-flex justify-content-center py-4">
-          <div class="col-md-3 d-flex justify-content-md-end">
-            <div class="exImg" style="width: 64px;">
-              <img class="img-fluid" src="../assets/experience/iconfinder_Phone Red_41319.png" alt="img">
+          <div class="col-md-3 justify-content-md-end d-none d-md-flex">
+            <div class="position-relative exInner">
+              <img class="img-fluid exImg" src="../assets/experience/iconfinder_Phone Red_41319.png" alt="img">
+              <div class="exLine"></div>
             </div>
           </div>
           <div class="col-md-8">
@@ -393,9 +395,10 @@
           </div>
         </div>
         <div class="row d-flex justify-content-center py-4">
-          <div class="col-md-3 d-flex justify-content-md-end">
-            <div class="exImg" style="width: 64px;">
-              <img class="img-fluid" src="../assets/experience/test.png" alt="img">
+          <div class="col-md-3 justify-content-md-end d-none d-md-flex">
+            <div class="position-relative exInner">
+              <img class="img-fluid exImg" src="../assets/experience/test.png" alt="img">
+              <div class="exLine"></div>
             </div>
           </div>
           <div class="col-md-8">
@@ -406,9 +409,9 @@
           </div>
         </div>
         <div class="row d-flex justify-content-center py-4">
-          <div class="col-md-3 d-flex justify-content-md-end">
-            <div class="exImg" style="width: 64px;">
-              <img class="img-fluid" src="../assets/experience/box.png" alt="img">
+          <div class="col-md-3 justify-content-md-end d-none d-md-flex">
+            <div class="position-relative exInner">
+              <img class="img-fluid exImg" src="../assets/experience/box.png" alt="img">
             </div>
           </div>
           <div class="col-md-8">
@@ -607,7 +610,8 @@
   }
 
   .top-img {
-    background-image: url("../assets/top.jpeg");
+    background-image: url("../assets/top.jpg");
+    /* background-image: url(""); */
     background-size: cover;
   }
 
@@ -634,7 +638,7 @@
   .myTitle-blue {
     text-align: center;
     color: rgb(37, 43, 66);
-    border-bottom: 3px solid rgb(0, 57, 150);
+    border-bottom: 3px solid rgb(255, 255, 255);
     padding: 30px 0;
     margin-bottom: 60px;
     position: relative;
@@ -655,7 +659,7 @@
   .myTitle-white {
     text-align: center;
     color: rgb(255, 255, 255);
-    border-bottom: 3px solid rgb(71, 141, 189);
+    border-bottom: 3px solid rgb(255, 255, 255);
     padding: 30px 0;
     margin-bottom: 60px;
     position: relative;
@@ -810,6 +814,40 @@
     padding-bottom: 100px;
   }
 
+  .exInner{
+    width: 64px;
+  }
+
+  .exImg{
+    position: absolute;
+    background-image: linear-gradient(to bottom,rgb(24, 178, 192),rgb(71, 141, 189));
+    border-radius: 50%;
+    padding: 8px;
+    z-index: 1;
+    transition:all 0.5s;
+  }
+
+  .row:hover .exImg{
+    transform: scale(1.3,1.3);
+  }
+  
+  #experience .row h4{
+    transition:all 0.5s;
+  }
+
+  #experience .row:hover h4 {
+    color:rgb(68, 189, 219);
+  }
+
+  .exLine{
+    position: absolute;
+    width: 20px;
+    height: 120%;
+    left: 50%;
+    transform: translate(-50%,20%);
+    background-image: linear-gradient(to bottom,rgb(71, 141, 189),rgb(71, 141, 189),rgb(24, 178, 192),rgb(24, 178, 192));
+    z-index: 0;
+  }
 
   .exContent{
     padding: 20px 0;
