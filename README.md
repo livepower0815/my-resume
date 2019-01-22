@@ -1,12 +1,15 @@
 # my-resume
 
+## 關於我(About Me)
+一年前開始為自己定了前端的職涯方向，這段期間由於家庭因素的關係只能利用下班時間去做線上學習，目前已能獨立以Vue.js & Node.js架設商業的金流網頁，世上沒有困難的事情，只有熱誠跟興趣才能長久維持自己向前的動力。
+
 ## 技能(Skill)
 ### 前端
-* **HTML/CSS** - 能撰寫語意化標籤、排版,SASS 預處理器使用
-* **JavaScript** - 熟悉 DOM 模型、this、閉包、Prototype、AJAX 等基本概念
-* **jQuery** - 為網頁添加具互動性的效果
-* **Bootstrap** - flexbox 網格、RWD 自適應排版
 * **Vue.js** - data 雙向綁定、模板元件化、 SPA 單頁式應用、Router、Vuex
+* **Bootstrap** - flexbox 網格、RWD 自適應排版
+* **JavaScript** - 熟悉 DOM 模型、this、閉包、Prototype、AJAX 等基本概念
+* **HTML/CSS** - 能撰寫語意化標籤、排版,SASS 預處理器使用
+* **jQuery** - 為網頁添加具互動性的效果
 
 ### 後端
 * **Node.js** - NPM 套件使用、express.js 架設後端邏輯、EJS 樣板使用
@@ -20,12 +23,12 @@
 * 使用搭配 MVC、MVVM 開發風格
 
 ## 個人作品(Porgram Project)
-1. [**個人網站**](https://livepower0815.github.io/my-resume/dist/)
-    * 使用 Vue cli、webpack 開發
+1. [**個人履歷網站**](https://livepower0815.github.io/my-resume/dist/)
+    * 使用 Vue cli 快速建置開發環境
     * Bootstrap4 製作 RWD 網頁
-    * 套件 vue-scrollto 製作頁面滑動
+    * npm 套件 vue-scrollto 製作連結的頁面滑動
     * v-bind style屬性 製作視差滾動
-    * transform 3D 製作互動效果
+    * 善用 CSS transform 3D 製作互動效果
 
 2. [**MonkeyShot 猴寶拍拍-電子商務**](https://livepower0815.github.io/my-vue-cli3/dist/)
     * [**github專案**](https://github.com/livepower0815/my-vue-cli3)
@@ -42,13 +45,19 @@
     * 整合 Firebase 完成會員功能、留言板功能
     * 擁有可編輯上傳文章的後台 dashboard (如需後台帳密可洽詢本人)
 
-4. [**會議室預約系統**](https://livepower0815.github.io/test1/meetingRoom/)
+4. [**BMI 計算器**](https://livepower0815.github.io/test1/hexSchool/day17(BMI計算)/)
+    * [**github專案**](https://github.com/livepower0815/test1/tree/master/hexSchool/day17(BMI計算)/)
+    * Vue 使用 v-for 渲染 list 內容
+    * Bootstrap4 製作 RWD 網頁
+    * Localstorage 儲存 list 資料
+
+5. [**會議室預約系統**](https://livepower0815.github.io/test1/meetingRoom/)
     * [**github專案**](https://github.com/livepower0815/test1/tree/master/meetingRoom)
     * Bootstrap4 製作 RWD 網頁
-    * 整合 Firebase 存取資料、渲染 TodoList
-    * 自行撰寫 資料儲存格式、doubleBooking 驗證邏輯
+    * 整合 Firebase 存取資料、渲染 List
+    * 自行撰寫 資料儲存格式、double booking 驗證邏輯
 
-5. **純手刻小遊戲**
+6. **純手刻小遊戲**
     1. [CSS貪食蛇](https://livepower0815.github.io/test1/snakeGame/)
         * 單純使用 JavaScript 及 CSS 撰寫，全部邏輯不參考網路自行構想
         * 電腦平板手機皆可使用點擊操作
@@ -58,15 +67,6 @@
         * 環境設定: 紅心條 數量:3 , 長度:3 位置採用隨機生成
 
 
-6. [**BMI 計算器**](https://livepower0815.github.io/test1/hexSchool/day17(BMI計算)/)
-    * [**github專案**](https://github.com/livepower0815/test1/tree/master/hexSchool/day17(BMI計算)/)
-    * Vue 綁定雙向資料結構 開發 todolist
-    * Bootstrap4 製作 RWD 網頁
-    * Localstorage 儲存 list 資料
-
-
-## 關於我(About Me)
-一年前開始為自己定了前端的職涯方向，這段期間由於家庭因素的關係只能利用下班時間去做線上學習，目前已能獨立以Vue.js & Node.js架設商業的金流網頁，世上沒有困難的事情，只有熱誠跟興趣才能長久維持自己向前的動力。
 ## 學歷(Education)
 #### 國立虎尾科技大學 2006 年 9 月 - 2010 年 6 月
 工業工程管理學系

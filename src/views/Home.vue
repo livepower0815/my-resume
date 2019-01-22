@@ -33,14 +33,14 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <div class="top-content d-flex justify-content-center">
-              <h1 class="text_effect pb-5">Hello I'm Kerry </h1>
+            <div class="titleHide">
+              <div class="top-content d-flex justify-content-center">
+                <h1 class="text_effect pb-5">Hello I'm Kerry </h1>
+              </div>
             </div>
           </div>
           <div class="col-md-6  d-flex justify-content-center">
-            <div class="img-profile">
-
-            </div>
+            <div class="imgHide"><div class="img-profile"></div></div>
           </div>
         </div>
       </div>
@@ -51,7 +51,7 @@
     <div id="about">
       <div class="container">
         <h1 class="myTitle-white">About Myself</h1>
-        <div class="row">
+        <div class="row aboutHide" :class="{'active':aboutShow}">
           <div class="col-md-6">
             <img src="../assets/aboutme.jpg" alt="" class="img-fluid myShadow rounded">
           </div>
@@ -373,7 +373,7 @@
           </div>
           <div class="col-md-8">
             <div class="exContent text-white">
-              <h4 class="pb-4">國瑞汽車 | 品管員 | 2014 年 7 月 - 至今</h4>
+              <h4 class="pb-4">國瑞汽車 | 品管員 | <span class="d-inline-block">2014 年 7 月 - 至今</span></h4>
               <p><i class="fas fa-tools pr-3"></i> 完成車檢驗</p>
               <p><i class="fas fa-tools pr-3"></i> QCC品管圈活動</p>
             </div>
@@ -388,7 +388,7 @@
           </div>
           <div class="col-md-8">
             <div class="exContent text-white">
-              <h4 class="pb-4">悅城科技 | 品保工程師 | 2013 年 10 月 - 2014 年 2 月</h4>
+              <h4 class="pb-4">悅城科技 | 品保工程師 | <span class="d-inline-block">2013 年 10 月 - 2014 年 2 月</span></h4>
               <p><i class="fas fa-tools pr-3"></i> 薄化面板成品良率管控</p>
               <p><i class="fas fa-tools pr-3"></i> 面板廠相關規範制定整合</p>
             </div>
@@ -403,7 +403,7 @@
           </div>
           <div class="col-md-8">
             <div class="exContent text-white">
-              <h4 class="pb-4">富捷實驗室 | 品保工程師 | 2011 年 10 月 - 2013 年 8 月</h4>
+              <h4 class="pb-4">富捷實驗室 | 品保工程師 | <span class="d-inline-block">2011 年 10 月 - 2013 年 8 月</span></h4>
               <p><i class="fas fa-tools pr-3"></i> 混泥土、鋼筋品質檢測</p>
             </div>
           </div>
@@ -416,7 +416,7 @@
           </div>
           <div class="col-md-8">
             <div class="exContent text-white">
-              <h4 class="pb-4">NEC物流公司 | 倉儲管理 | 2010 年 7 月 - 2011 年 7 月</h4>
+              <h4 class="pb-4">NEC物流公司 | 倉儲管理 | <span class="d-inline-block">2010 年 7 月 - 2011 年 7 月</span></h4>
               <p><i class="fas fa-tools pr-3"></i> 大樓倉庫進出貨處理</p>
               <p><i class="fas fa-tools pr-3"></i> 倉庫空間規劃</p>
             </div>
@@ -430,7 +430,7 @@
       <div class="container">
         <div class="row d-flex justify-content-center">
           <div class="col-md-6 text-center text-white">
-            <div class="contact_card">
+            <div class="contact_card" :class="{'active':contactShow}">
               <h1 class="py-4">Contact Me</h1>
               <div class="row d-flex justify-content-center">
                 <div class="col-md-6">
@@ -467,6 +467,8 @@
     data() {
       return {
         viewprotH: 0,
+        viewprotW: 0,
+        windowH:0,
         works_modal: {},
         navLinksH: {},
         works: [{
@@ -536,13 +538,42 @@
       };
     },
     computed: {
+      contactShow(){
+        const vm = this;
+        if(vm.viewprotH > (vm.navLinksH.contact - vm.windowH/4)){
+          return true;
+        }else{
+          return false;
+        }
+      },
+      aboutShow(){
+        const vm = this;
+        if(vm.viewprotH > (vm.navLinksH.about - vm.windowH/4)){
+          return true;
+        }else{
+          return false;
+        }
+      },
       bgImgScroll() {
         const vm = this;
-        return 0 + "px " + (vm.viewprotH ) / 2 + "px";
+        let mdBG = 0 + "px " + (vm.viewprotH ) / 2 + "px";
+        let smBG = 'center center';
+        if (vm.viewprotW < 768) {
+          return smBG;
+        }else{
+          return mdBG;
+        }
+         
       },
       contactScroll() {
         const vm = this;
-        return 0 + "px " + (vm.viewprotH - vm.navLinksH.contact) + "px";
+        let mdBG = 0 + "px " + (vm.viewprotH - vm.navLinksH.contact) + "px";
+        let smBG = 'center center';
+        if (vm.viewprotW < 768) {
+          return smBG;
+        }else{
+          return mdBG;
+        }
       },
       navActive() {
         const vm = this;
@@ -578,7 +609,16 @@
       const works = document.querySelector('#works');
       const experience = document.querySelector('#experience');
       const contact = document.querySelector('#contact');
-
+      vm.viewprotW = window.outerWidth;
+      vm.windowH = window.outerHeight;
+      
+      //紀錄視窗寬度
+      window.addEventListener("resize",function(){
+        vm.viewprotW = window.outerWidth;
+        vm.windowH = window.outerHeight;
+      });
+      
+      //紀錄視窗跟元件滾動位置
       window.addEventListener("scroll", function () {
         vm.viewprotH = window.pageYOffset;
         vm.navLinksH.about = about.offsetTop;
@@ -586,8 +626,15 @@
         vm.navLinksH.works = works.offsetTop;
         vm.navLinksH.experience = experience.offsetTop;
         vm.navLinksH.contact = contact.offsetTop;
-
       });
+
+      // header 內容淡入動畫
+      setTimeout(() => {
+        document.querySelector('.titleHide').classList.add('active')
+      }, 1000);
+      setTimeout(() => {
+        document.querySelector('.imgHide').classList.add('active')
+      }, 1500);
     }
   };
 </script>
@@ -606,7 +653,17 @@
   }
 
   .h100 {
-    height: 100vh;
+    min-height: 100vh;
+  }
+
+  .titleHide ,.imgHide ,.aboutHide,.contact_card{
+    opacity:0;
+    transform: translate(0,-30px);
+    transition: all 1s;
+  }
+  .titleHide.active,.imgHide.active,.aboutHide.active,.contact_card.active{
+    opacity:1;
+    transform: translate(0,0);
   }
 
   .top-img {
@@ -788,6 +845,7 @@
     background-position: center center;
   }
 
+
   #skill {
     padding-top: 60px;
     padding-bottom: 100px;
@@ -850,11 +908,11 @@
   }
 
   .exContent{
-    padding: 20px 0;
+    padding: 20px 15px;
   }
 
   #contact {
-    padding-top: 60px;
+    padding-top: 120px;
     background-image: url('../assets/contact.jpeg');
     background-size: cover;
     padding-bottom: 130px;
