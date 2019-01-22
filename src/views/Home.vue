@@ -452,7 +452,7 @@
 
     <!-- 這裡是 Footer  -->
     <div id="footer">
-      <p class="text-white">Copyright © Chowy Resume Website 宏宇簡歷網頁</p>
+      <p class="text-white">Copyright © Kerry Resume Website 宏宇簡歷網頁</p>
     </div>
 
 
@@ -640,6 +640,10 @@
 </script>
 
 <style lang="scss" scoped>
+  body {
+    font-family: 'Noto Sans TC', sans-serif;
+  }
+
   .text_effect {
     text-shadow: 3px 3px 6px #000000;
   }
