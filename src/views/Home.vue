@@ -540,7 +540,7 @@
     computed: {
       contactShow(){
         const vm = this;
-        if(vm.viewprotH > (vm.navLinksH.contact - vm.windowH/4)){
+        if(vm.viewprotH > (vm.navLinksH.contact - vm.windowH/3)){
           return true;
         }else{
           return false;
@@ -699,7 +699,7 @@
   .myTitle-blue {
     text-align: center;
     color: rgb(37, 43, 66);
-    border-bottom: 3px solid rgb(255, 255, 255);
+    border-bottom: 3px solid rgb(37, 43, 66);
     padding: 30px 0;
     margin-bottom: 60px;
     position: relative;
@@ -860,9 +860,10 @@
 
   #works {
     padding-top: 60px;
-    background: rgb(238, 238, 238);
+    background-image: url('../assets/projects.jpeg');
+    background-position: center center;
+    background-size: cover;
     padding-bottom: 130px;
-    background-image: linear-gradient(to right, rgb(145, 145, 145), rgb(214, 214, 214),rgb(214, 214, 214),rgb(145, 145, 145));
 
   }
 
