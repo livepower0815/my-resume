@@ -32,15 +32,18 @@
     <div class="h100 top-img text-white d-flex align-items-center" :style="{backgroundPosition:bgImgScroll}">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
-            <div class="titleHide">
-              <div class="top-content d-flex justify-content-center">
-                <h1 class="text_effect pb-5">Hello I'm Kerry </h1>
-              </div>
-            </div>
-          </div>
           <div class="col-md-6  d-flex justify-content-center">
             <div class="imgHide"><div class="img-profile"></div></div>
+          </div>
+          <div class="col-md-6 d-flex align-items-md-center justify-content-center">
+            <div class="titleHide mx-md-5">
+              <div class="top-content text-center">
+                <h1 class="text_effect pb-3">Hello I'm Kerry </h1>
+                <h4 class="text_effect py-2">這世上沒有困難的事情</h4>
+                <h4 class="text_effect py-2">只要有熱誠跟興趣</h4>
+                <h4 class="text_effect py-2">就能維持自己向前的動力</h4>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -53,15 +56,19 @@
         <h1 class="myTitle-white">About Myself</h1>
         <div class="row aboutHide" :class="{'active':aboutShow}">
           <div class="col-md-6">
-            <img src="../assets/aboutme.jpg" alt="" class="img-fluid myShadow rounded">
+            <img src="../assets/aboutme.jpg" alt="" class="img-fluid myShadow rounded my-3">
           </div>
           <div class="col-md-6 d-flex align-items-center">
             <div class="p-4 my-3 bgWhite">
               <p>Hello 您好，我叫做 陳宏宇 ( Kerry )</p>
               <p>2017年開始為自己定了前端的職涯方向，</p>
-              <p>目前已能獨立以Vue.js & Node.js架設商業的金流網頁，</p>
-              <p>世上沒有困難的事情，</p>
-              <p>只有熱誠跟興趣才能長久維持自己向前的動力。</p>
+              <p>這段期間由於家庭因素的關係只能利用下班時間去做線上學習，</p>
+              <p>目前已能獨立以Vue.js & Node.js架設商業的金流網頁。</p>
+              <p>努力研究各種技術並整合使用，</p>
+              <p>看到他人對於我的作品展現出笑容，</p>
+              <p>這成就感使我覺得人生無比富有，</p>
+              <p>不斷的追求、不斷的學習，</p>
+              <p>積極的體現自己對於這個社會的價值。</p>
             </div>
 
           </div>
@@ -631,10 +638,10 @@
       // header 內容淡入動畫
       setTimeout(() => {
         document.querySelector('.titleHide').classList.add('active')
-      }, 1000);
+      }, 2500);
       setTimeout(() => {
         document.querySelector('.imgHide').classList.add('active')
-      }, 1500);
+      }, 2000);
     }
   };
 </script>
@@ -668,6 +675,15 @@
   .titleHide.active,.imgHide.active,.aboutHide.active,.contact_card.active{
     opacity:1;
     transform: translate(0,0);
+  }
+
+  .titleHide{
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+  .titleHide h1 {
+    letter-spacing: 2px;
   }
 
   .top-img {
@@ -770,13 +786,20 @@
   }
 
   .img-profile {
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 400px;
     background-image: url("../assets/profile.jpg");
     background-size: cover;
     background-position: center center;
     border-radius: 50%;
     border: rgb(255, 255, 255) 10px solid;
+  }
+
+  @media (max-width: 800px) {
+    .img-profile {
+      height: 300px;
+      width: 300px;
+    }
   }
 
   .goToWeb {
