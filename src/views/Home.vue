@@ -63,12 +63,12 @@
               <p>Hello 您好，我叫做 陳宏宇 ( Kerry )</p>
               <p>2017年開始為自己定了前端的職涯方向，</p>
               <p>這段期間由於家庭因素的關係只能利用下班時間去做線上學習，</p>
-              <p>目前已能獨立以Vue.js & Node.js架設商業的金流網頁。</p>
+              <p>目前已能獨立以 Vue.js & Node.js 架設商業的金流網頁。</p>
               <p>努力研究各種技術並整合使用，</p>
+              <p>在不斷的追求、不斷的學習、不斷的創作的過程中，</p>
               <p>看到他人對於我的作品展現出笑容，</p>
-              <p>這成就感使我覺得人生無比富有，</p>
-              <p>不斷的追求、不斷的學習，</p>
-              <p>積極的體現自己對於這個社會的價值。</p>
+              <p>這成就感使我覺得人生無比富有。</p>
+              
             </div>
 
           </div>
@@ -264,73 +264,74 @@
         <div class="row">
           <div class="col-md-4">
             <div class="transform_3d">
-              <h3 class="text-center py-4">猴寶拍拍-購物網</h3>
+              
               <div class="myCard">
                 <div class="myCard_img">
                   <a href="#" @click.prevent="openModal(works[0])"><img class="img-fluid" src="../assets/works/monkey.png"
                       alt="img"></a>
                 </div>
               </div>
-
+              <h3 class="text-center py-4">猴寶拍拍-購物網</h3>
             </div>
           </div>
           <div class="col-md-4">
             <div class="transform_3d">
-              <h3 class="text-center py-4">夢想家 Blog</h3>
+              
               <div class="myCard">
                 <div class="myCard_img">
                   <a href="#" @click.prevent="openModal(works[1])"><img class="img-fluid" src="../assets/works/blog.png"
                       alt="img"></a>
                 </div>
               </div>
+              <h3 class="text-center py-4">夢想家 Blog</h3>
             </div>
           </div>
           <div class="col-md-4">
             <div class="transform_3d">
-              <h3 class="text-center py-4">BMI 計算器</h3>
+              
               <div class="myCard">
                 <div class="myCard_img">
                   <a href="#" @click.prevent="openModal(works[2])"><img class="img-fluid" src="../assets/works/BMI.png"
                       alt="img"></a>
                 </div>
               </div>
-
+              <h3 class="text-center py-4">BMI 計算器</h3>
             </div>
           </div>
           <div class="col-md-4">
             <div class="transform_3d">
-              <h3 class="text-center py-4">會議室預約系統</h3>
+              
               <div class="myCard">
                 <div class="myCard_img">
                   <a href="#" @click.prevent="openModal(works[3])"><img class="img-fluid" src="../assets/works/meeting.png"
                       alt="img"></a>
                 </div>
               </div>
-
+              <h3 class="text-center py-4">會議室預約系統</h3>
             </div>
           </div>
           <div class="col-md-4">
             <div class="transform_3d">
-              <h3 class="text-center py-4">CSS 貪食蛇</h3>
+              
               <div class="myCard">
                 <div class="myCard_img">
                   <a href="#" @click.prevent="openModal(works[4])"><img class="img-fluid" src="../assets/works/snake.png"
                       alt="img"></a>
                 </div>
               </div>
-
+              <h3 class="text-center py-4">CSS 貪食蛇</h3>
             </div>
           </div>
           <div class="col-md-4">
             <div class="transform_3d">
-              <h3 class="text-center py-4">戰船遊戲</h3>
+              
               <div class="myCard">
                 <div class="myCard_img">
                   <a href="#" @click.prevent="openModal(works[5])"><img class="img-fluid" src="../assets/works/ship.png"
                       alt="img"></a>
                 </div>
               </div>
-
+              <h3 class="text-center py-4">戰船遊戲</h3>
             </div>
           </div>
         </div>
@@ -380,7 +381,7 @@
           </div>
           <div class="col-md-8">
             <div class="exContent text-white">
-              <h4 class="pb-4">國瑞汽車 | 品管員 | <span class="d-inline-block">2014 年 7 月 - 至今</span></h4>
+              <h4 class="pb-4">國瑞汽車 | 品管員 | <span class="d-inline-block"><i class="fas fa-clock"></i> 2014 年 7 月 - 至今</span></h4>
               <p><i class="fas fa-tools pr-3"></i> 完成車檢驗</p>
               <p><i class="fas fa-tools pr-3"></i> QCC品管圈活動</p>
             </div>
@@ -395,7 +396,7 @@
           </div>
           <div class="col-md-8">
             <div class="exContent text-white">
-              <h4 class="pb-4">悅城科技 | 品保工程師 | <span class="d-inline-block">2013 年 10 月 - 2014 年 2 月</span></h4>
+              <h4 class="pb-4">悅城科技 | 品保工程師 | <span class="d-inline-block"><i class="fas fa-clock"></i> 2013 年 10 月 - 2014 年 2 月</span></h4>
               <p><i class="fas fa-tools pr-3"></i> 薄化面板成品良率管控</p>
               <p><i class="fas fa-tools pr-3"></i> 面板廠相關規範制定整合</p>
             </div>
@@ -410,7 +411,7 @@
           </div>
           <div class="col-md-8">
             <div class="exContent text-white">
-              <h4 class="pb-4">富捷實驗室 | 品保工程師 | <span class="d-inline-block">2011 年 10 月 - 2013 年 8 月</span></h4>
+              <h4 class="pb-4">富捷實驗室 | 品保工程師 | <span class="d-inline-block"><i class="fas fa-clock"></i> 2011 年 10 月 - 2013 年 8 月</span></h4>
               <p><i class="fas fa-tools pr-3"></i> 混泥土、鋼筋品質檢測</p>
             </div>
           </div>
@@ -419,13 +420,26 @@
           <div class="col-md-3 justify-content-md-end d-none d-md-flex">
             <div class="position-relative exInner">
               <img class="img-fluid exImg" src="../assets/experience/box.png" alt="img">
+              <div class="exLine"></div>
             </div>
           </div>
           <div class="col-md-8">
             <div class="exContent text-white">
-              <h4 class="pb-4">NEC物流公司 | 倉儲管理 | <span class="d-inline-block">2010 年 7 月 - 2011 年 7 月</span></h4>
+              <h4 class="pb-4">NEC物流公司 | 倉儲管理 | <span class="d-inline-block"><i class="fas fa-clock"></i> 2010 年 7 月 - 2011 年 7 月</span></h4>
               <p><i class="fas fa-tools pr-3"></i> 大樓倉庫進出貨處理</p>
               <p><i class="fas fa-tools pr-3"></i> 倉庫空間規劃</p>
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-center py-4">
+          <div class="col-md-3 justify-content-md-end d-none d-md-flex">
+            <div class="position-relative exInner">
+              <img class="img-fluid exImg" src="../assets/experience/Graduation.png" alt="img">
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="exContent text-white">
+              <h4 class="pb-4">國立虎尾科技大學 | 工業工程管理 | <span class="d-inline-block"><i class="fas fa-clock"></i> 2010 年 6 月 畢業</span></h4>
             </div>
           </div>
         </div>
@@ -647,6 +661,11 @@
 </script>
 
 <style lang="scss" scoped>
+  .test{
+    color: rgb(7, 161, 207);
+    margin: auto;
+  }
+  
   body {
     font-family: 'Noto Sans TC', sans-serif;
   }
@@ -774,7 +793,7 @@
 
   .myCard_content {
     color: white;
-    background: rgb(37, 43, 66);
+    background: rgba(37, 43, 66, 0.835);
   }
 
 
@@ -896,7 +915,7 @@
 
   #experience {
     padding-top: 60px;
-    background: rgb(37, 43, 66);
+    background-image: linear-gradient(to right, rgb(37, 37, 37), rgb(39, 47, 83),rgb(39, 47, 83),rgb(37, 37, 37));
     padding-bottom: 100px;
   }
 
@@ -974,4 +993,6 @@
     left: 50%;
     transform: translate(-50% ,-50%);
   }
+
+  
 </style>
