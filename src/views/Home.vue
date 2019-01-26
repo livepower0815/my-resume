@@ -462,9 +462,10 @@
               </div>
               <h3 class="py-3">宏宇 ( Kerry )</h3>
               <h5 class="pb-3"><a href="mailto:livepower0815@gmail.com" class="text-white"><i class="fas fa-envelope"></i> livepower0815@gmail.com</a></h5>
+              <h5 class="pb-3"><i class="fas fa-phone"></i> 0975-320-521</h5>
               <a href="https://www.facebook.com/profile.php?id=100000312843510" target="_blank"><i class="fab fa-facebook-square"></i></a>
               <a href="https://github.com/livepower0815/my-resume" class="mx-5" target="_blank"><i class="fab fa-github"></i></a>
-              <a href="#" target="_blank"><i class="fas fa-copyright"></i></a>
+              <a href="https://www.cakeresume.com/livepower0815" target="_blank"><i class="fas fa-copyright"></i></a>
             </div>
           </div>
         </div>
@@ -662,8 +663,18 @@
 
 <style lang="scss" scoped>
   .test{
-    color: rgb(7, 161, 207);
+    color: rgb(251, 251, 251);
     margin: auto;
+    position: absolute;
+    background: rgb(24, 190, 196);
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 50%;
+    opacity: 0;
+    transition: all 0.5s;
+    cursor: pointer;
+    z-index: 10;
+    transform: translate(30px,0px)
   }
   
   body {

@@ -1,4 +1,12 @@
-# my-resume
+# Kerry-resume
+
+## 陳宏宇 (Kerry)
+#### 前端工程師 ( Front-end engineer )
+* Location: 台北、桃園、新竹
+* Mobile: 0975320521
+* E-Mail: livepower0815@gmail.com
+* Facebook: https://www.facebook.com/profile.php?id=100000312843510
+* Cakeresume: https://www.cakeresume.com/livepower0815
 
 ## 關於我(About Me)
 這世上沒有困難的事情，只要有熱誠跟興趣就能維持自己向前的動力。
@@ -102,4 +110,4 @@
 
 
 
-# my-resume
+# Kerry-resume
