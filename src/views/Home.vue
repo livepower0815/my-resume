@@ -499,8 +499,9 @@
             href: 'https://livepower0815.github.io/my-vue-cli3/dist/',
             content: [
               '使用 Vue cli、webpack 開發擁有購物車及結帳系統的 SPA 網頁',
+              '搭建 Heroku 串接 智付通第三方金流 API',
+              'axios 串接後端 API 商務',
               '使用 Bootstrap4、SASS 製作 RWD 網頁',
-              '使用 axios 串接後端 api 邏輯',
               '擁有可編輯上傳商品的後台 dashboard (如需後台帳密可洽詢本人)',
             ],
           },

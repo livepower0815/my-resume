@@ -42,27 +42,29 @@
 * 使用搭配 MVC、MVVM 開發風格
 
 ## 個人作品(Porgram Project)
-1. [**個人履歷網站**](https://livepower0815.github.io/my-resume/dist/)
-    * 使用 Vue cli 快速建置開發環境
-    * Bootstrap4 製作 RWD 網頁
-    * npm 套件 vue-scrollto 製作連結的頁面滑動
-    * 使用 v-bind 綁定 style、class 屬性 製作視窗滾動特效
-    * 善用 CSS transform 3D 製作互動效果
-
-2. [**MonkeyShot 猴寶拍拍-電子商務**](https://livepower0815.github.io/my-vue-cli3/dist/)
+1. [**MonkeyShot 猴寶拍拍-電子商務**](https://livepower0815.github.io/my-vue-cli3/dist/)
     * [**github專案**](https://github.com/livepower0815/my-vue-cli3)
     * Vue cli、webpack 開發擁有購物車及結帳系統的 SPA 網頁
+    * 搭建 Heroku 串接 智付通第三方金流 API 
+    * axios 串接後端 API 商務
     * Bootstrap4、SASS 製作 RWD 網頁
-    * axios 串接後端 api 邏輯
     * 擁有可編輯上傳商品的後台 dashboard (如需後台帳密可洽詢本人)
 
-3. [**夢想家Blog**](https://limitless-wildwood-49993.herokuapp.com/)-(Heroku需喚醒請耐心等待一會)
+2. [**夢想家Blog**](https://limitless-wildwood-49993.herokuapp.com/)-(Heroku需喚醒請耐心等待一會)
     * [**github專案**](https://github.com/livepower0815/myBlogApp)
     * node.js、express 開發的後端 Blog
     * EJS 樣板渲染前端網頁
     * Bootstrap4 製作 RWD 網頁
     * 整合 Firebase 完成會員功能、留言板功能
     * 擁有可編輯上傳文章的後台 dashboard (如需後台帳密可洽詢本人)
+
+3. [**個人履歷網站**](https://livepower0815.github.io/my-resume/dist/)
+    * 使用 Vue cli 快速建置開發環境
+    * Bootstrap4 製作 RWD 網頁
+    * npm 套件 vue-scrollto 製作連結的頁面滑動
+    * 使用 v-bind 綁定 style、class 屬性 製作視窗滾動特效
+    * 善用 CSS transform 3D 製作互動效果
+
 
 4. [**BMI 計算器**](https://livepower0815.github.io/test1/hexSchool/day17(BMI計算)/)
     * [**github專案**](https://github.com/livepower0815/test1/tree/master/hexSchool/day17(BMI計算)/)
