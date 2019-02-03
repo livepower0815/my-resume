@@ -33,7 +33,9 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6  d-flex justify-content-center">
-            <div class="imgHide"><div class="img-profile"></div></div>
+            <div class="imgHide">
+              <div class="img-profile"></div>
+            </div>
           </div>
           <div class="col-md-6 d-flex align-items-md-center justify-content-center">
             <div class="titleHide mx-md-5">
@@ -68,7 +70,7 @@
               <p>在不斷的追求、不斷的學習、不斷的創作的過程中，</p>
               <p>看到他人對於我的作品展現出笑容，</p>
               <p>這成就感使我覺得人生無比富有。</p>
-              
+
             </div>
 
           </div>
@@ -80,7 +82,39 @@
     <div id="skill">
       <div class="container">
         <h1 class="myTitle-white">Skills</h1>
-        <div class="row">
+        <div class="d-flex justify-content-center pb-5">
+          <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
+            <button @click="skillDispaly = 'gallery'" type="button" class="btn btn-primary"><i class="fas fa-grip-horizontal fa-2x"></i></button>
+            <button @click="skillDispaly = 'list'" type="button" class="btn btn-info"><i class="far fa-list-alt fa-2x"></i></button>
+          </div>
+        </div>
+        
+        <div class="row d-flex justify-content-center" v-if="skillDispaly == 'list'">
+          <div class="col-md-8 text-white skillList">
+            <h3>前端(Front-end)</h3>
+            <ul>
+              <li><b>Vue.js</b> - data 雙向綁定、模板元件化、 SPA 單頁式應用、Router、Vuex</li>
+              <li><b>Bootstrap</b> - flexbox 網格、RWD 自適應排版</li>
+              <li><b>JavaScript</b> - 熟悉 DOM 模型、this、閉包、Prototype、AJAX 等基本概念</li>
+              <li><b>jQuery</b> - 為網頁添加具互動性的效果</li>
+              <li><b>HTML/CSS</b> - 能撰寫語意化標籤、排版,SASS 預處理器使用</li>
+            </ul>
+            <h3>後端(Back-end)</h3>
+            <ul>
+              <li><b>Node.js</b> - NPM 套件使用、express.js 架設後端邏輯、EJS 樣板使用</li>
+              <li><b>Firebase</b> - API 整合使用、雲端 Data 存放、會員資料管理及驗證</li>
+            </ul>
+            <h3>前端(Other)</h3>
+            <ul>
+              <li><b>Webpack</b> - 轉換 ES6、SASS、BABEL 檔案，打包網站</li>
+              <li><b>Git</b> - 透過 Github 進行團隊協作、Github-Pages 前端部署、Heroku 後端部署</li>
+              <li><b>ES6</b> - 了解 Promise 非同步處理、解構賦值、其餘參數等概念</li>
+              <li><b>Photoshop</b>  - 圖片去背、切版、調色處理</li>
+              <li>使用搭配 MVC、MVVM 開發風格</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row" v-if="skillDispaly == 'gallery'">
           <div class="col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
             <div class="flip-card">
               <div class="flip-card-inner">
@@ -176,7 +210,7 @@
                 </div>
                 <div class="flip-card-back">
                   <h2>Node.js</h2>
-                  <p><i class="far fa-check-circle"></i>  NPM 套件使用</p>
+                  <p><i class="far fa-check-circle"></i> NPM 套件使用</p>
                   <p><i class="far fa-check-circle"></i> express.js 架設後端邏輯</p>
                   <p><i class="far fa-check-circle"></i> EJS 樣板使用</p>
                 </div>
@@ -205,7 +239,7 @@
                 </div>
                 <div class="flip-card-back">
                   <h2>Webpack</h2>
-                  <p><i class="far fa-check-circle"></i>  轉換 ES6、SASS、BABEL 檔案</p>
+                  <p><i class="far fa-check-circle"></i> 轉換 ES6、SASS、BABEL 檔案</p>
                 </div>
               </div>
             </div>
@@ -252,7 +286,7 @@
               </div>
             </div>
           </div>
-          
+
         </div>
       </div>
     </div>
@@ -264,19 +298,19 @@
         <div class="row">
           <div class="col-md-4">
             <div class="transform_3d">
-              
+
               <div class="myCard">
                 <div class="myCard_img">
                   <a href="#" @click.prevent="openModal(works[0])"><img class="img-fluid" src="../assets/works/monkey.png"
                       alt="img"></a>
                 </div>
               </div>
-              <h3 class="text-center py-4">猴寶拍拍-購物網</h3>
+              <h3 class="text-center py-4">猴寶拍拍-電子商務</h3>
             </div>
           </div>
           <div class="col-md-4">
             <div class="transform_3d">
-              
+
               <div class="myCard">
                 <div class="myCard_img">
                   <a href="#" @click.prevent="openModal(works[1])"><img class="img-fluid" src="../assets/works/blog.png"
@@ -288,7 +322,7 @@
           </div>
           <div class="col-md-4">
             <div class="transform_3d">
-              
+
               <div class="myCard">
                 <div class="myCard_img">
                   <a href="#" @click.prevent="openModal(works[2])"><img class="img-fluid" src="../assets/works/BMI.png"
@@ -300,7 +334,7 @@
           </div>
           <div class="col-md-4">
             <div class="transform_3d">
-              
+
               <div class="myCard">
                 <div class="myCard_img">
                   <a href="#" @click.prevent="openModal(works[3])"><img class="img-fluid" src="../assets/works/meeting.png"
@@ -312,7 +346,7 @@
           </div>
           <div class="col-md-4">
             <div class="transform_3d">
-              
+
               <div class="myCard">
                 <div class="myCard_img">
                   <a href="#" @click.prevent="openModal(works[4])"><img class="img-fluid" src="../assets/works/snake.png"
@@ -324,7 +358,7 @@
           </div>
           <div class="col-md-4">
             <div class="transform_3d">
-              
+
               <div class="myCard">
                 <div class="myCard_img">
                   <a href="#" @click.prevent="openModal(works[5])"><img class="img-fluid" src="../assets/works/ship.png"
@@ -382,8 +416,24 @@
           <div class="col-md-8">
             <div class="exContent text-white">
               <h4 class="pb-4">國瑞汽車 | 品管員 | <span class="d-inline-block"><i class="fas fa-clock"></i> 2014 年 7 月 - 至今</span></h4>
-              <p><i class="fas fa-tools pr-3"></i> 完成車檢驗</p>
-              <p><i class="fas fa-tools pr-3"></i> QCC品管圈活動</p>
+              <p><i class="fas fa-tools pr-3"></i> 參與社內技能競賽活動獲得第一名，2016及2018年代表台灣區 TOYOTA 參加豐田亞太技能競賽獲得 優秀賞。</p>
+              <div class="row pb-4">
+                <div class="col-md-6">
+                  <a href="https://drive.google.com/file/d/1A4mgGDbRd5xpPi3CYVEtIYv5qOnAjZtB/view?usp=sharing" target="_blank"
+                    rel="noopener noreferrer">
+                    <img class="img-fluid exCert" src="../assets/experience/AP-2018.jpg" alt="img">
+                  </a>
+                </div>
+                <div class="col-md-6">
+                  <a href="https://drive.google.com/file/d/1HEPv7Nq2i4MrmkoIoQiIFfdwn2OO8VNZ/view?usp=sharing" target="_blank"
+                    rel="noopener noreferrer">
+                    <img class="img-fluid exCert" src="../assets/experience/AP-2016.jpg" alt="img">
+                  </a>
+                </div>
+              </div>
+              <p><i class="fas fa-tools pr-3"></i> 參與公司的 QCC
+                (品管圈)，透過每次的活動跟同仁一起合作、集思廣益，活用品管七大手法，來解決工作現場、管理、文化等方面所發生的問題及課題。</p>
+              <p>身為公司的一員我積極參與公司的各項活動，品管圈會議中讓我可以有機會在大眾面前講話，增加自己的溝通能力，改善了個性，與養成專心處理問題的能力。參加技能競賽更能讓我意識到本身工作的重要性與職責，因而對自己的工作更感到自豪。</p>
             </div>
           </div>
         </div>
@@ -396,9 +446,11 @@
           </div>
           <div class="col-md-8">
             <div class="exContent text-white">
-              <h4 class="pb-4">悅城科技 | 品保工程師 | <span class="d-inline-block"><i class="fas fa-clock"></i> 2013 年 10 月 - 2014 年 2 月</span></h4>
+              <h4 class="pb-4">悅城科技 | 品保工程師 | <span class="d-inline-block"><i class="fas fa-clock"></i> 2013 年 10 月 -
+                  2014 年 2 月</span></h4>
               <p><i class="fas fa-tools pr-3"></i> 薄化面板成品良率管控</p>
               <p><i class="fas fa-tools pr-3"></i> 面板廠相關規範制定整合</p>
+              <p>工作需要對應各個面板廠(群創、友達等)的整合工程師，客戶所要求的良率以及面板的薄化標準與自身公司的產能之間，我會去衡量抓出一個平衡點，在這過程中去學習提升我整合事情的能力。</p>
             </div>
           </div>
         </div>
@@ -411,8 +463,10 @@
           </div>
           <div class="col-md-8">
             <div class="exContent text-white">
-              <h4 class="pb-4">富捷實驗室 | 品保工程師 | <span class="d-inline-block"><i class="fas fa-clock"></i> 2011 年 10 月 - 2013 年 8 月</span></h4>
+              <h4 class="pb-4">富捷實驗室 | 品保工程師 | <span class="d-inline-block"><i class="fas fa-clock"></i> 2011 年 10 月 -
+                  2013 年 8 月</span></h4>
               <p><i class="fas fa-tools pr-3"></i> 混泥土、鋼筋品質檢測</p>
+              <p>檢測混泥土的抗壓係數以及鋼筋的抗拉係數是否能合乎在標準範圍內，降低產品使用週期低的風險，確保顧客能使用到令消費者放心的商品。</p>
             </div>
           </div>
         </div>
@@ -425,9 +479,11 @@
           </div>
           <div class="col-md-8">
             <div class="exContent text-white">
-              <h4 class="pb-4">NEC物流公司 | 倉儲管理 | <span class="d-inline-block"><i class="fas fa-clock"></i> 2010 年 7 月 - 2011 年 7 月</span></h4>
+              <h4 class="pb-4">NEC物流公司 | 倉儲管理 | <span class="d-inline-block"><i class="fas fa-clock"></i> 2010 年 7 月 -
+                  2011 年 7 月</span></h4>
               <p><i class="fas fa-tools pr-3"></i> 大樓倉庫進出貨處理</p>
               <p><i class="fas fa-tools pr-3"></i> 倉庫空間規劃</p>
+              <P>依照商品的流通數量、出貨頻率等來規劃倉庫存放庫位，試著讓空間使用彈性最大化。協力分貨、包裝、貼標、改包裝、組裝、退貨處理。</P>
             </div>
           </div>
         </div>
@@ -439,7 +495,14 @@
           </div>
           <div class="col-md-8">
             <div class="exContent text-white">
-              <h4 class="pb-4">國立虎尾科技大學 | 工業工程管理 | <span class="d-inline-block"><i class="fas fa-clock"></i> 2010 年 6 月 畢業</span></h4>
+              <h4 class="pb-4">國立虎尾科技大學 | 工業工程管理 | <span class="d-inline-block"><i class="fas fa-clock"></i> 2010 年 6 月
+                  畢業</span></h4>
+              <p><i class="fas fa-tools pr-3"></i> 工管系學會-跑跑卡丁車活動總召：</p>
+              <p>舉辦系上電子遊戲競賽，藉由競賽活動來增加系上同學之間的交流，我主要負責賽制相關規則制定、擬定獎金發放額度，場地以及工作人員的選擇與調配。</p>
+              <p><i class="fas fa-tools pr-3"></i> 畢業聯誼會-名人演講講座策劃：</p>
+              <p>當時向經紀公司請了陳漢典來學校，我必須在校務跟經紀公司之間做好溝通的橋樑，協調演講費部分的定案，讓經紀公司可以接受且校務局的合理，在這過程去提升我的協調能力。</p>
+              <p><i class="fas fa-tools pr-3"></i> 吉他社-社團期末發表總召：</p>
+              <p>負責活動人員的安排、活動流程制定、場地選擇與探勘、拜訪周邊商家提供活動贊助。</p>
             </div>
           </div>
         </div>
@@ -461,7 +524,8 @@
                 </div>
               </div>
               <h3 class="py-3">宏宇 ( Kerry )</h3>
-              <h5 class="pb-3"><a href="mailto:livepower0815@gmail.com" class="text-white"><i class="fas fa-envelope"></i> livepower0815@gmail.com</a></h5>
+              <h5 class="pb-3"><a href="mailto:livepower0815@gmail.com" class="text-white"><i class="fas fa-envelope"></i>
+                  livepower0815@gmail.com</a></h5>
               <h5 class="pb-3"><i class="fas fa-phone"></i> 0975-320-521</h5>
               <a href="https://www.facebook.com/profile.php?id=100000312843510" target="_blank"><i class="fab fa-facebook-square"></i></a>
               <a href="https://github.com/livepower0815/my-resume" class="mx-5" target="_blank"><i class="fab fa-github"></i></a>
@@ -477,7 +541,6 @@
       <p class="text-white">Copyright © Kerry Resume Website 宏宇簡歷網頁</p>
     </div>
 
-
   </div>
 </template>
 
@@ -490,11 +553,12 @@
       return {
         viewprotH: 0,
         viewprotW: 0,
-        windowH:0,
+        windowH: 0,
+        skillDispaly:'gallery',
         works_modal: {},
         navLinksH: {},
         works: [{
-            title: '猴寶拍拍-購物網',
+            title: '猴寶拍拍-電子商務',
             imgUrl: 'https://firebasestorage.googleapis.com/v0/b/project-0815.appspot.com/o/monkey.png?alt=media&token=80a4d221-a852-4517-8867-d61e4511403a',
             href: 'https://livepower0815.github.io/my-vue-cli3/dist/',
             content: [
@@ -561,32 +625,32 @@
       };
     },
     computed: {
-      contactShow(){
+      contactShow() {
         const vm = this;
-        if(vm.viewprotH > (vm.navLinksH.contact - vm.windowH/3)){
+        if (vm.viewprotH > (vm.navLinksH.contact - vm.windowH / 3)) {
           return true;
-        }else{
+        } else {
           return false;
         }
       },
-      aboutShow(){
+      aboutShow() {
         const vm = this;
-        if(vm.viewprotH > (vm.navLinksH.about - vm.windowH/4)){
+        if (vm.viewprotH > (vm.navLinksH.about - vm.windowH / 4)) {
           return true;
-        }else{
+        } else {
           return false;
         }
       },
       bgImgScroll() {
         const vm = this;
-        let mdBG = 0 + "px " + (vm.viewprotH ) / 2 + "px";
+        let mdBG = 0 + "px " + (vm.viewprotH) / 2 + "px";
         let smBG = 'center center';
         if (vm.viewprotW < 768) {
           return smBG;
-        }else{
+        } else {
           return mdBG;
         }
-         
+
       },
       contactScroll() {
         const vm = this;
@@ -594,7 +658,7 @@
         let smBG = 'center center';
         if (vm.viewprotW < 768) {
           return smBG;
-        }else{
+        } else {
           return mdBG;
         }
       },
@@ -634,13 +698,13 @@
       const contact = document.querySelector('#contact');
       vm.viewprotW = window.outerWidth;
       vm.windowH = window.outerHeight;
-      
+
       //紀錄視窗寬度
-      window.addEventListener("resize",function(){
+      window.addEventListener("resize", function () {
         vm.viewprotW = window.outerWidth;
         vm.windowH = window.outerHeight;
       });
-      
+
       //紀錄視窗跟元件滾動位置
       window.addEventListener("scroll", function () {
         vm.viewprotH = window.pageYOffset;
@@ -663,7 +727,7 @@
 </script>
 
 <style lang="scss" scoped>
-  .test{
+  .test {
     color: rgb(251, 251, 251);
     margin: auto;
     position: absolute;
@@ -675,9 +739,9 @@
     transition: all 0.5s;
     cursor: pointer;
     z-index: 10;
-    transform: translate(30px,0px)
+    transform: translate(30px, 0px)
   }
-  
+
   body {
     font-family: 'Noto Sans TC', sans-serif;
   }
@@ -698,17 +762,24 @@
     min-height: 100vh;
   }
 
-  .titleHide ,.imgHide ,.aboutHide,.contact_card{
-    opacity:0;
-    transform: translate(0,-30px);
+  .titleHide,
+  .imgHide,
+  .aboutHide,
+  .contact_card {
+    opacity: 0;
+    transform: translate(0, -30px);
     transition: all 1s;
   }
-  .titleHide.active,.imgHide.active,.aboutHide.active,.contact_card.active{
-    opacity:1;
-    transform: translate(0,0);
+
+  .titleHide.active,
+  .imgHide.active,
+  .aboutHide.active,
+  .contact_card.active {
+    opacity: 1;
+    transform: translate(0, 0);
   }
 
-  .titleHide{
+  .titleHide {
     border-radius: 10px;
     padding: 20px;
   }
@@ -908,8 +979,16 @@
     padding-top: 60px;
     padding-bottom: 100px;
     background: rgb(37, 43, 66);
-    background-image: linear-gradient(to bottom, rgb(37, 37, 37), rgb(39, 47, 83),rgb(39, 47, 83),rgb(37, 37, 37));
+    background-image: linear-gradient(to bottom, rgb(37, 37, 37), rgb(39, 47, 83), rgb(39, 47, 83), rgb(37, 37, 37));
+  }
 
+  .skillList h3{
+    padding: 20px 0 10px 0;
+  }
+
+  .skillList li {
+    padding: 5px;
+    font-size: 18px;
   }
 
   #works {
@@ -927,47 +1006,55 @@
 
   #experience {
     padding-top: 60px;
-    background-image: linear-gradient(to right, rgb(37, 37, 37), rgb(39, 47, 83),rgb(39, 47, 83),rgb(37, 37, 37));
+    background-image: linear-gradient(to right, rgb(37, 37, 37), rgb(39, 47, 83), rgb(39, 47, 83), rgb(37, 37, 37));
     padding-bottom: 100px;
   }
 
-  .exInner{
+  .exInner {
     width: 64px;
   }
 
-  .exImg{
+  .exImg {
     position: absolute;
-    background-image: linear-gradient(to bottom,rgb(24, 178, 192),rgb(71, 141, 189));
+    background-image: linear-gradient(to bottom, rgb(24, 178, 192), rgb(71, 141, 189));
     border-radius: 50%;
     padding: 8px;
     z-index: 1;
-    transition:all 0.5s;
+    transition: all 0.5s;
   }
 
-  .row:hover .exImg{
-    transform: scale(1.3,1.3);
+  .row:hover .exImg {
+    transform: scale(1.3, 1.3);
   }
-  
-  #experience .row h4{
-    transition:all 0.5s;
+
+  #experience .row h4 {
+    transition: all 0.5s;
   }
 
   #experience .row:hover h4 {
-    color:rgb(68, 189, 219);
+    color: rgb(68, 189, 219);
   }
 
-  .exLine{
+  .exLine {
     position: absolute;
     width: 20px;
     height: 120%;
     left: 50%;
-    transform: translate(-50%,20%);
-    background-image: linear-gradient(to bottom,rgb(71, 141, 189),rgb(71, 141, 189),rgb(24, 178, 192),rgb(24, 178, 192));
+    transform: translate(-50%, 5%);
+    background-image: linear-gradient(to bottom, rgb(71, 141, 189), rgb(71, 141, 189), rgb(24, 178, 192), rgb(24, 178, 192));
     z-index: 0;
   }
 
-  .exContent{
+  .exContent {
     padding: 20px 15px;
+  }
+
+  .exCert {
+    transition: all 0.3s;
+  }
+
+  .exCert:hover {
+    box-shadow: 0px 0px 18px 5px #fdfdfd;
   }
 
   #contact {
@@ -977,8 +1064,8 @@
     padding-bottom: 130px;
   }
 
-  .contact_card{
-    background-image: linear-gradient(to bottom right,rgb(0, 79, 153),rgb(0, 149, 155));
+  .contact_card {
+    background-image: linear-gradient(to bottom right, rgb(0, 79, 153), rgb(0, 149, 155));
     padding: 30px 0;
     border-radius: 20px;
     font-size: 40px;
@@ -986,7 +1073,7 @@
 
   .contact_card a {
     color: white;
-    transition:all 0.4s;
+    transition: all 0.4s;
   }
 
   .contact_card a:hover {
@@ -1003,8 +1090,6 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50% ,-50%);
+    transform: translate(-50%, -50%);
   }
-
-  
 </style>
