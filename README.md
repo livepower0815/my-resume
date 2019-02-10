@@ -7,6 +7,7 @@
 * E-Mail: livepower0815@gmail.com
 * Facebook: https://www.facebook.com/profile.php?id=100000312843510
 * Cakeresume: https://www.cakeresume.com/livepower0815
+* Linkedin: https://www.linkedin.com/in/kerry-chen-39558617b/
 
 ## 關於我(About Me)
 這世上沒有困難的事情，只要有熱誠跟興趣就能維持自己向前的動力。

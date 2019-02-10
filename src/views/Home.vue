@@ -528,8 +528,9 @@
                   livepower0815@gmail.com</a></h5>
               <h5 class="pb-3"><i class="fas fa-phone"></i> 0975-320-521</h5>
               <a href="https://www.facebook.com/profile.php?id=100000312843510" target="_blank"><i class="fab fa-facebook-square"></i></a>
-              <a href="https://github.com/livepower0815/my-resume" class="mx-5" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="https://github.com/livepower0815/my-resume" class="" target="_blank"><i class="fab fa-github"></i></a>
               <a href="https://www.cakeresume.com/livepower0815" target="_blank"><i class="fas fa-copyright"></i></a>
+              <a href="https://www.linkedin.com/in/kerry-chen-39558617b/" target="_blank"><i class="fab fa-linkedin"></i></a>
             </div>
           </div>
         </div>
@@ -769,6 +770,10 @@
     opacity: 0;
     transform: translate(0, -30px);
     transition: all 1s;
+  }
+
+  .contact_card a{
+    padding: 0 10px;
   }
 
   .titleHide.active,
