@@ -66,26 +66,11 @@
     * 善用 CSS transform 3D 製作互動效果
 
 
-4. [**BMI 計算器**](https://livepower0815.github.io/test1/hexSchool/day17(BMI計算)/)
-    * [**github專案**](https://github.com/livepower0815/test1/tree/master/hexSchool/day17(BMI計算)/)
-    * Vue 使用 v-for 渲染 list 內容
-    * Bootstrap4 製作 RWD 網頁
-    * Localstorage 儲存 list 資料
-
-5. [**會議室預約系統**](https://livepower0815.github.io/test1/meetingRoom/)
-    * [**github專案**](https://github.com/livepower0815/test1/tree/master/meetingRoom)
-    * Bootstrap4 製作 RWD 網頁
-    * 整合 Firebase 存取資料、渲染 List
-    * 自行撰寫 資料儲存格式、double booking 驗證邏輯
-
-6. **純手刻小遊戲**
-    1. [CSS貪食蛇](https://livepower0815.github.io/test1/snakeGame/)
-        * 單純使用 JavaScript 及 CSS 撰寫，全部邏輯不參考網路自行構想
-        * 電腦平板手機皆可使用點擊操作
-    2. [戰船遊戲](https://livepower0815.github.io/test1/hexSchool/the%20first%20days/battleShip.html)
-        * JavaScript 深入淺出 練習作品
-        * [規則參考](https://zh.wikipedia.org/wiki/海战_(游戏)) 紅心代表擊中 黑心代表MISS
-        * 環境設定: 紅心條 數量:3 , 長度:3 位置採用隨機生成
+4. **Others**
+    * [**BMI 計算器**](https://livepower0815.github.io/test1/hexSchool/day17(BMI計算)/)
+    * [**會議室預約系統**](https://livepower0815.github.io/test1/meetingRoom/)
+    * [**CSS貪食蛇**](https://livepower0815.github.io/test1/snakeGame/)
+    * [**船戰遊戲**](https://livepower0815.github.io/test1/hexSchool/the%20first%20days/battleShip.html)
 
 
 ## 學歷(Education)
