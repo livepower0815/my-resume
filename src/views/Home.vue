@@ -104,7 +104,7 @@
               <li><b>Node.js</b> - NPM 套件使用、express.js 架設後端邏輯、EJS 樣板使用</li>
               <li><b>Firebase</b> - API 整合使用、雲端 Data 存放、會員資料管理及驗證</li>
             </ul>
-            <h3>前端(Other)</h3>
+            <h3>其他(Other)</h3>
             <ul>
               <li><b>Webpack</b> - 轉換 ES6、SASS、BABEL 檔案，打包網站</li>
               <li><b>Git</b> - 透過 Github 進行團隊協作、Github-Pages 前端部署、Heroku 後端部署</li>
