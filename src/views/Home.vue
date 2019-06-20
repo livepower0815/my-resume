@@ -1,5 +1,7 @@
 <template>
   <div>
+    <div v-if="navActive == 'works' || navActive == 'experience' || navActive == 'contact'" class="bg-img2"></div>
+    <div v-else class="bg-img1"></div>
     <!-- 這裡是 navbar  -->
     <nav class="navbar navbar-expand-lg myNav">
       <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03">
@@ -29,7 +31,7 @@
       </div>
     </nav>
     <!-- 這裡是 header  -->
-    <div class="h100 top-img text-white d-flex align-items-center" :style="{backgroundPosition:bgImgScroll}">
+    <div class="h100 top-img text-white d-flex align-items-center" style="backgroundPosition:center center">
       <div class="container">
         <div class="row">
           <div class="col-md-6  d-flex justify-content-center">
@@ -510,7 +512,7 @@
     </div>
 
     <!-- 這裡是 Contact  -->
-    <div id="contact" :style="{backgroundPosition:contactScroll}">
+    <div id="contact">
       <div class="container">
         <div class="row d-flex justify-content-center">
           <div class="col-md-6 text-center text-white">
@@ -751,6 +753,34 @@
     text-shadow: 3px 3px 6px #000000;
   }
 
+  .bg-img1 {
+    background-image: url("../assets/top.jpg");
+    /* background-image: url(""); */
+    background-size: cover;
+    background-position: center center;
+    z-index: -1000;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    filter: blur(3px);
+  }
+
+  .bg-img2 {
+    background-image: url("../assets/contact.jpeg");
+    /* background-image: url(""); */
+    background-size: cover;
+    background-position: center center;
+    z-index: -1000;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    filter: blur(3px);
+  }
+
   .h300 {
     height: 300vh;
   }
@@ -793,11 +823,6 @@
     letter-spacing: 2px;
   }
 
-  .top-img {
-    background-image: url("../assets/top.jpg");
-    /* background-image: url(""); */
-    background-size: cover;
-  }
 
   .myNav {
     background: rgb(37, 43, 66);
@@ -1064,8 +1089,6 @@
 
   #contact {
     padding-top: 120px;
-    background-image: url('../assets/contact.jpeg');
-    background-size: cover;
     padding-bottom: 130px;
   }
 
