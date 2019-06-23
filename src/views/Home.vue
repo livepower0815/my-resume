@@ -602,7 +602,7 @@
             href: '',
             content: [
               '前端框架為 Vue.js 前後端分離使用相關 Vue 套件如 Cli3、Router',
-              'Vux 管理全域 User & Customer info 資料，使 component 能更流暢的取得父級資訊',
+              'Vux 管理全域 User & Customer info 資料，使 component 能更靈活的取得父級資訊',
               '使用 primse 包裝 axios 套件串接 後端 Java RESTful API',
               '整合 Google Maps API 提升客戶列表使用者體驗',
             ],
