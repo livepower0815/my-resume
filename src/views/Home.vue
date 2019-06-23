@@ -300,10 +300,20 @@
         <div class="row">
           <div class="col-md-4">
             <div class="transform_3d">
-
               <div class="myCard">
                 <div class="myCard_img">
-                  <a href="#" @click.prevent="openModal(works[0])"><img class="img-fluid" src="../assets/works/monkey.png"
+                  <a href="#" @click.prevent="openModal(works[0])"><img class="img-fluid" src="../assets/works/crm.png"
+                      alt="img"></a>
+                </div>
+              </div>
+              <h3 class="text-center py-4">CRM Web App</h3>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="transform_3d">
+              <div class="myCard">
+                <div class="myCard_img">
+                  <a href="#" @click.prevent="openModal(works[1])"><img class="img-fluid" src="../assets/works/monkey.png"
                       alt="img"></a>
                 </div>
               </div>
@@ -312,10 +322,9 @@
           </div>
           <div class="col-md-4">
             <div class="transform_3d">
-
               <div class="myCard">
                 <div class="myCard_img">
-                  <a href="#" @click.prevent="openModal(works[1])"><img class="img-fluid" src="../assets/works/blog.png"
+                  <a href="#" @click.prevent="openModal(works[2])"><img class="img-fluid" src="../assets/works/blog.png"
                       alt="img"></a>
                 </div>
               </div>
@@ -327,7 +336,7 @@
 
               <div class="myCard">
                 <div class="myCard_img">
-                  <a href="#" @click.prevent="openModal(works[2])"><img class="img-fluid" src="../assets/works/BMI.png"
+                  <a href="#" @click.prevent="openModal(works[3])"><img class="img-fluid" src="../assets/works/BMI.png"
                       alt="img"></a>
                 </div>
               </div>
@@ -339,14 +348,14 @@
 
               <div class="myCard">
                 <div class="myCard_img">
-                  <a href="#" @click.prevent="openModal(works[3])"><img class="img-fluid" src="../assets/works/meeting.png"
+                  <a href="#" @click.prevent="openModal(works[4])"><img class="img-fluid" src="../assets/works/meeting.png"
                       alt="img"></a>
                 </div>
               </div>
               <h3 class="text-center py-4">會議室預約系統</h3>
             </div>
           </div>
-          <div class="col-md-4">
+          <!-- <div class="col-md-4">
             <div class="transform_3d">
 
               <div class="myCard">
@@ -357,7 +366,7 @@
               </div>
               <h3 class="text-center py-4">CSS 貪食蛇</h3>
             </div>
-          </div>
+          </div> -->
           <div class="col-md-4">
             <div class="transform_3d">
 
@@ -396,7 +405,10 @@
             </ul>
           </div>
           <div class="">
-            <div class=" text-center m-3 pb-4">
+            <div v-if="works_modal.href == ''" class=" text-center m-3 pb-4">
+              <button class="goToWeb-noDemo rounded-pill">版權問題無法提供 Demo</button>
+            </div>
+            <div v-else class=" text-center m-3 pb-4">
               <a :href="works_modal.href" target="_blank" class="goToWeb rounded-pill">點擊前往作品網頁</a>
             </div>
           </div>
@@ -408,6 +420,26 @@
     <div id="experience">
       <div class="container">
         <h1 class="myTitle-white">Experience</h1>
+        <!-- thinkpower -->
+        <div class="row d-flex justify-content-center py-4">
+          <div class="col-md-3 justify-content-md-end d-none d-md-flex">
+            <div class="position-relative exInner">
+              <img class="img-fluid exImg" src="../assets/experience/iconfinder_Notebook_by_Artdesigner_60879.png" alt="img">
+              <div class="exLine"></div>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="exContent text-white">
+              <h4 class="pb-4">昕力資訊 | 前端工程師 | <span class="d-inline-block"><i class="fas fa-clock"></i> 2019 年 2 月 - 至今</span></h4>
+              <p><i class="fas fa-tools pr-3"></i> 串接後端 Java API：CRM 專案功能查詢、新增、刪除、修改</p>
+              <p><i class="fas fa-tools pr-3"></i> 前端 UI/UX 調整頁面邏輯：List Data 的 filter、彈跳資訊或提示的視窗、相關 loading 效果、等...</p>
+              <p><i class="fas fa-tools pr-3"></i> 協助解決 Browser (Chrome、Safari、IE) 與裝置(電腦、手機、平板)之間的相容問題</p>
+              <p><i class="fas fa-tools pr-3"></i> 透過 Sourcetree 幫前端設計團隊撰寫假資料以利設計師切版時候的作業，並有效與前端設計公司做版面整合及調整</p>
+              <p>主要負責客戶關係管理專案前端 Vue.js，依照客戶 SPEC 串接後端 API 、撰寫前端邏輯、向設計師溝通調整 UI/UX layout。</p>
+            </div>
+          </div>
+        </div>
+        <!-- 國瑞汽車 -->
         <div class="row d-flex justify-content-center py-4">
           <div class="col-md-3 justify-content-md-end d-none d-md-flex">
             <div class="position-relative exInner">
@@ -417,7 +449,7 @@
           </div>
           <div class="col-md-8">
             <div class="exContent text-white">
-              <h4 class="pb-4">國瑞汽車 | 品管員 | <span class="d-inline-block"><i class="fas fa-clock"></i> 2014 年 7 月 - 至今</span></h4>
+              <h4 class="pb-4">國瑞汽車 | 品管員 | <span class="d-inline-block"><i class="fas fa-clock"></i> 2014 年 7 月 - 2019 年 2 月</span></h4>
               <p><i class="fas fa-tools pr-3"></i> 參與社內技能競賽活動獲得第一名，2016及2018年代表台灣區 TOYOTA 參加豐田亞太技能競賽獲得 優秀賞。</p>
               <div class="row pb-4">
                 <div class="col-md-6">
@@ -439,6 +471,7 @@
             </div>
           </div>
         </div>
+        <!-- 悅城科技 -->
         <div class="row d-flex justify-content-center py-4">
           <div class="col-md-3 justify-content-md-end d-none d-md-flex">
             <div class="position-relative exInner">
@@ -456,6 +489,7 @@
             </div>
           </div>
         </div>
+        <!-- 富捷實驗室 -->
         <div class="row d-flex justify-content-center py-4">
           <div class="col-md-3 justify-content-md-end d-none d-md-flex">
             <div class="position-relative exInner">
@@ -472,6 +506,7 @@
             </div>
           </div>
         </div>
+        <!-- NEC物流公司 -->
         <div class="row d-flex justify-content-center py-4">
           <div class="col-md-3 justify-content-md-end d-none d-md-flex">
             <div class="position-relative exInner">
@@ -489,6 +524,7 @@
             </div>
           </div>
         </div>
+        <!-- 國立虎尾科技大學 -->
         <div class="row d-flex justify-content-center py-4">
           <div class="col-md-3 justify-content-md-end d-none d-md-flex">
             <div class="position-relative exInner">
@@ -561,6 +597,17 @@
         works_modal: {},
         navLinksH: {},
         works: [{
+            title: 'CRM Web App 客戶關係管理網頁平台',
+            imgUrl: 'https://firebasestorage.googleapis.com/v0/b/project-0815.appspot.com/o/crm.png?alt=media&token=8de94e5d-615d-4afb-b55a-691878d34240',
+            href: '',
+            content: [
+              '前端框架為 Vue.js 前後端分離使用相關 Vue 套件如 Cli3、Router',
+              'Vux 管理全域 User & Customer info 資料，使 component 能更流暢的取得父級資訊',
+              '使用 primse 包裝 axios 套件串接 後端 Java RESTful API',
+              '整合 Google Maps API 提升客戶列表使用者體驗',
+            ],
+          },
+          {
             title: '猴寶拍拍-電子商務',
             imgUrl: 'https://firebasestorage.googleapis.com/v0/b/project-0815.appspot.com/o/monkey.png?alt=media&token=80a4d221-a852-4517-8867-d61e4511403a',
             href: 'https://livepower0815.github.io/my-vue-cli3/dist/',
@@ -605,15 +652,15 @@
               '自行撰寫 資料儲存格式、doubleBooking 驗證邏輯',
             ],
           },
-          {
-            title: 'CSS 貪食蛇',
-            imgUrl: 'https://firebasestorage.googleapis.com/v0/b/project-0815.appspot.com/o/snake.png?alt=media&token=7da4da70-1795-42bb-9b27-5274e529bece',
-            href: 'https://livepower0815.github.io/test1/snakeGame/',
-            content: [
-              '單純使用 JavaScript 及 CSS 撰寫，全部邏輯不參考網路自行構想',
-              '電腦平板手機皆可使用點擊操作',
-            ],
-          },
+          // {
+          //   title: 'CSS 貪食蛇',
+          //   imgUrl: 'https://firebasestorage.googleapis.com/v0/b/project-0815.appspot.com/o/snake.png?alt=media&token=7da4da70-1795-42bb-9b27-5274e529bece',
+          //   href: 'https://livepower0815.github.io/test1/snakeGame/',
+          //   content: [
+          //     '單純使用 JavaScript 及 CSS 撰寫，全部邏輯不參考網路自行構想',
+          //     '電腦平板手機皆可使用點擊操作',
+          //   ],
+          // },
           {
             title: '戰船遊戲',
             imgUrl: 'https://firebasestorage.googleapis.com/v0/b/project-0815.appspot.com/o/ship.png?alt=media&token=9e8f65a7-deb1-4b13-a69e-9c766fb044c6',
@@ -942,6 +989,14 @@
     transition: all 0.5s;
   }
 
+  .goToWeb-noDemo {
+    border: white 2px solid;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    font-size: 20px;
+    transition: all 0.5s;
+  }
+
   .goToWeb:hover {
     text-decoration: none;
     background: rgb(236, 236, 236);
@@ -980,8 +1035,6 @@
     height: 100%;
     backface-visibility: hidden;
   }
-
-
 
   /* Style the front side (fallback if image is missing) */
   .flip-card-front {

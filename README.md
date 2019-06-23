@@ -42,8 +42,14 @@
 * **Photoshop** - 圖片去背、切版、調色處理
 * 使用搭配 MVC、MVVM 開發風格
 
-## 個人作品(Porgram Project)
-1. [**MonkeyShot 猴寶拍拍-電子商務**](https://livepower0815.github.io/my-vue-cli3/dist/)
+## 個人作品及專案(Porgram Project)
+1. **CRM Web App 客戶關係管理網頁平台** (版權問題無法提供 Demo)
+    * 前端框架為 Vue.js 前後端分離使用相關 Vue 套件如 Cli3、Router
+    * Vux 管理全域 User & Customer info 資料，使 component 能更流暢的取得父級資訊
+    * 使用 primse 包裝 axios 套件串接 後端 Java RESTful API
+    * 整合 Google Maps API 提升客戶列表使用者體驗
+
+2. [**MonkeyShot 猴寶拍拍-電子商務**](https://livepower0815.github.io/my-vue-cli3/dist/)
     * [**github專案**](https://github.com/livepower0815/my-vue-cli3)
     * Vue cli、webpack 開發擁有購物車及結帳系統的 SPA 網頁
     * 搭建 Heroku 串接 智付通第三方金流 API 
@@ -51,7 +57,7 @@
     * Bootstrap4、SASS 製作 RWD 網頁
     * 擁有可編輯上傳商品的後台 dashboard (如需後台帳密可洽詢本人)
 
-2. [**夢想家Blog**](https://limitless-wildwood-49993.herokuapp.com/)-(Heroku需喚醒請耐心等待一會)
+3. [**夢想家Blog**](https://limitless-wildwood-49993.herokuapp.com/)-(Heroku需喚醒請耐心等待一會)
     * [**github專案**](https://github.com/livepower0815/myBlogApp)
     * node.js、express 開發的後端 Blog
     * EJS 樣板渲染前端網頁
@@ -59,7 +65,7 @@
     * 整合 Firebase 完成會員功能、留言板功能
     * 擁有可編輯上傳文章的後台 dashboard (如需後台帳密可洽詢本人)
 
-3. [**個人履歷網站**](https://livepower0815.github.io/my-resume/dist/)
+4. [**個人履歷網站**](https://livepower0815.github.io/my-resume/dist/)
     * 使用 Vue cli 快速建置開發環境
     * Bootstrap4 製作 RWD 網頁
     * npm 套件 vue-scrollto 製作連結的頁面滑動
@@ -67,7 +73,7 @@
     * 善用 CSS transform 3D 製作互動效果
 
 
-4. **Others**
+5. **Others**
     * [**BMI 計算器**](https://livepower0815.github.io/test1/hexSchool/day17(BMI計算)/)
     * [**會議室預約系統**](https://livepower0815.github.io/test1/meetingRoom/)
     * [**CSS貪食蛇**](https://livepower0815.github.io/test1/snakeGame/)
@@ -92,11 +98,12 @@
 
 ## 經歷(Experience)
 #### 昕力資訊 | 前端工程師 | 2019 年 2 月 - 至今
-* 串接後端 Java API：CRM 專案功能查詢、新增、刪除、修改 
+* 串接後端 Java API：CRM 專案功能查詢、新增、刪除、修改
 * 前端 UI/UX 調整頁面邏輯：List Data 的 filter、彈跳資訊或提示的視窗、相關 loading 效果、等...
 * 協助解決 Browser (Chrome、Safari、IE) 與裝置(電腦、手機、平板)之間的相容問題
+* 透過 Sourcetree 幫前端設計團隊撰寫假資料以利設計師切版時候的作業，並有效與前端設計公司做版面整合及調整
 
-待編輯
+主要負責客戶關係管理專案前端 Vue.js，依照客戶 SPEC 串接後端 API 、撰寫前端邏輯、向設計師溝通調整 UI/UX layout。
 
 #### 國瑞汽車 | 品管員 | 2014 年 7 月 - 2019 年 2 月
 * 參與社內技能競賽活動獲得第一名，2016及2018年代表台灣區 TOYOTA 參加豐田亞太技能競賽獲得 優秀賞
