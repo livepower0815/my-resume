@@ -380,11 +380,11 @@
 
               <div class="myCard">
                 <div class="myCard_img">
-                  <a href="#" @click.prevent="openModal(works[3])"><img class="img-fluid" src="../assets/works/BMI.png"
+                  <a href="#" @click.prevent="openModal(works[3])"><img class="img-fluid" src="../assets/works/image-wall.png"
                       alt="img"></a>
                 </div>
               </div>
-              <h3 class="text-center py-4">BMI 計算器</h3>
+              <h3 class="text-center py-4">Unsplash API 圖片牆</h3>
             </div>
           </div>
           <div class="col-md-4">
@@ -392,11 +392,11 @@
 
               <div class="myCard">
                 <div class="myCard_img">
-                  <a href="#" @click.prevent="openModal(works[4])"><img class="img-fluid" src="../assets/works/meeting.png"
+                  <a href="#" @click.prevent="openModal(works[4])"><img class="img-fluid" src="../assets/works/video.png"
                       alt="img"></a>
                 </div>
               </div>
-              <h3 class="text-center py-4">會議室預約系統</h3>
+              <h3 class="text-center py-4">Youtube API 影片搜尋</h3>
             </div>
           </div>
           <!-- <div class="col-md-4">
@@ -694,23 +694,21 @@
             ],
           },
           {
-            title: 'BMI 計算器',
-            imgUrl: 'https://firebasestorage.googleapis.com/v0/b/project-0815.appspot.com/o/BMI.png?alt=media&token=43607bf7-176f-4afa-a99d-774688715432',
-            href: 'https://livepower0815.github.io/test1/hexSchool/day17(BMI計算)/',
+            title: 'Unsplash API 圖片牆',
+            imgUrl: 'https://firebasestorage.googleapis.com/v0/b/project-0815.appspot.com/o/image-wall.png?alt=media&token=2d34037e-40f3-457b-bf11-8f1f45674aca',
+            href: 'https://livepower0815.github.io/react-image-wall/build/',
             content: [
-              '使用 Vue 綁定雙向資料結構 開發 todolist',
-              '使用 Bootstrap4 製作 RWD 網頁',
-              '使用 Localstorage 儲存 list 資料',
+              '使用 React 框架開發',
+              '搭配 Unsplash API 撰寫圖片搜尋應用',
             ],
           },
           {
-            title: '會議室預約系統',
-            imgUrl: 'https://firebasestorage.googleapis.com/v0/b/project-0815.appspot.com/o/meeting.png?alt=media&token=5389af65-61d1-44e0-b3ac-750a46a851b3',
-            href: 'https://livepower0815.github.io/test1/meetingRoom/',
+            title: 'Youtube API 影片搜尋',
+            imgUrl: 'https://firebasestorage.googleapis.com/v0/b/project-0815.appspot.com/o/video.png?alt=media&token=f54a3550-478e-4f87-b3a0-f12f2d028038',
+            href: 'https://livepower0815.github.io/React-youtube-API/build/',
             content: [
-              '使用 Bootstrap4 製作 RWD 網頁',
-              '整合 Firebase 存取資料、渲染 TodoList',
-              '自行撰寫 資料儲存格式、doubleBooking 驗證邏輯',
+              '使用 React 框架開發',
+              '搭配 Youtube API 撰寫影片搜尋應用',
             ],
           },
           // {
