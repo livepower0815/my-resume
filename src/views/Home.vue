@@ -3,7 +3,7 @@
     <div v-if="navActive == 'works' || navActive == 'experience' || navActive == 'contact'" class="bg-img2"></div>
     <div v-else class="bg-img1"></div>
     <!-- 這裡是 navbar  -->
-    <nav class="navbar navbar-expand-lg myNav">
+    <nav class="navbar navbar-expand-lg myNav" :class="{'scroll-color': viewprotH > 300}">
       <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03">
         <span><i class="fas fa-list-ul"></i></span>
       </button>
@@ -65,13 +65,21 @@
           <div class="col-md-6 d-flex align-items-center">
             <div class="p-4 my-3 bgWhite">
               <p>Hello 您好，我叫做 陳宏宇 ( Kerry )</p>
-              <p>2017年開始為自己定了前端的職涯方向，</p>
-              <p>這段期間由於家庭因素的關係只能利用下班時間去做線上學習，</p>
-              <p>目前已能獨立以 Vue.js & Node.js 架設商業的金流網頁。</p>
-              <p>努力研究各種技術並整合使用，</p>
-              <p>在不斷的追求、不斷的學習、不斷的創作的過程中，</p>
-              <p>看到他人對於我的作品展現出笑容，</p>
-              <p>這成就感使我覺得人生無比富有。</p>
+              
+              <p>努力研究各種技術並整合使用，在不斷的追求、不斷的學習、不斷的創作的過程中，
+              看到他人對於我的作品展現出笑容，這成就感使我覺得人生無比富有。</p>
+              
+              <p>2017年開始為自己定了前端的職涯方向，這段期間由於家庭因素的關係只能利用下班時間去做線上學習。</p>
+              <p>2018 年底時已能獨立架設 Vue.js & Node.js 商業的金流網頁。</p>
+              <p>2019 正式踏入前端工作，並也開始研究使用 React 框架，目前主要參與過兩個大型專案如下。</p>
+              <p>1. Vue 架構的 CRM (客戶關係管理)</p>
+              <p>2. React 彩票網架構重構成 Vue 架構</p>
+
+              <p>未來感興趣的研究方向：</p>
+              <p>* Linux 作業系統操作介面</p>
+              <p>* 雲端服務代理相關</p>
+              <p>* docker、kubernetes 自動化部屬</p>
+              <p>* CI/CD</p>
 
             </div>
 
@@ -86,8 +94,8 @@
         <h1 class="myTitle-white">Skills</h1>
         <div class="d-flex justify-content-center pb-5">
           <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
-            <button @click="skillDispaly = 'gallery'" type="button" class="btn btn-primary"><i class="fas fa-grip-horizontal fa-2x"></i></button>
-            <button @click="skillDispaly = 'list'" type="button" class="btn btn-info"><i class="far fa-list-alt fa-2x"></i></button>
+            <button @click="skillDispaly = 'list'" type="button" class="btn btn-info">清單 <i class="far fa-list-alt fa-1x"></i></button>
+            <button @click="skillDispaly = 'gallery'" type="button" class="btn btn-primary">圖示 <i class="fas fa-grip-horizontal fa-1x"></i></button>
           </div>
         </div>
         
@@ -95,24 +103,34 @@
           <div class="col-md-8 text-white skillList">
             <h3>前端(Front-end)</h3>
             <ul>
-              <li><b>Vue.js</b> - data 雙向綁定、模板元件化、 SPA 單頁式應用、Router、Vuex</li>
-              <li><b>Bootstrap</b> - flexbox 網格、RWD 自適應排版</li>
-              <li><b>JavaScript</b> - 熟悉 DOM 模型、this、閉包、Prototype、AJAX 等基本概念</li>
+              <li><b>Vue</b> - data 雙向綁定、模板元件化、Router、Vuex</li>
+              <li><b>React</b> - Router、Redux(thunk、Saga)、Hooks</li>
+              <li><b>JavaScript</b> - 熟悉 DOM 模型、閉包、Prototype、AJAX、ES6+ 等基本概念</li>
               <li><b>jQuery</b> - 為網頁添加具互動性的效果</li>
-              <li><b>HTML/CSS</b> - 能撰寫語意化標籤、排版,SASS 預處理器使用</li>
+              <li><b>HTML/CSS</b> - 能撰寫語意化標籤、排版</li>
+            </ul>
+            <h3>UI 框架(UI-framework)</h3>
+            <ul>
+              <li><b>Bootstrap</b></li>
+              <li><b>AntD</b></li>
+              <li><b>Semantic UI</b></li>
+              <li><b>Element-UI</b></li>
             </ul>
             <h3>後端(Back-end)</h3>
             <ul>
-              <li><b>Node.js</b> - NPM 套件使用、express.js 架設後端邏輯、EJS 樣板使用</li>
-              <li><b>Firebase</b> - API 整合使用、雲端 Data 存放、會員資料管理及驗證</li>
+              <li><b>Node.js</b> - npm 工具使用、Express.js 架設 Web 應用</li>
+              <li><b>Postman</b> - API 測試</li>
+              <li><b>Webpack</b> - 轉換 ES6、CSS預處理(less、sass) 檔案打包網站</li>
+            </ul>
+            <h3>DataBase</h3>
+            <ul>
+              <li><b>Firebase</b> - 主要使用 admin、database、hosting 模組</li>
+              <li><b>Postman</b> - Robo 3T 操作並配合使用 mongoose library</li>
             </ul>
             <h3>其他(Other)</h3>
             <ul>
-              <li><b>Webpack</b> - 轉換 ES6、SASS、BABEL 檔案，打包網站</li>
-              <li><b>Git</b> - 透過 Github 進行團隊協作、Github-Pages 前端部署、Heroku 後端部署</li>
-              <li><b>ES6</b> - 了解 Promise 非同步處理、解構賦值、其餘參數等概念</li>
+              <li><b>Git</b> - 進行團隊協作、sourcetree 操作、Github 部署、Heroku 部署</li>
               <li><b>Photoshop</b>  - 圖片去背、切版、調色處理</li>
-              <li>使用搭配 MVC、MVVM 開發風格</li>
             </ul>
           </div>
         </div>
@@ -140,7 +158,6 @@
                 </div>
                 <div class="flip-card-back">
                   <h2>CSS</h2>
-                  <p><i class="far fa-check-circle"></i> SASS 預處理器</p>
                   <p><i class="far fa-check-circle"></i> RWD 手刻 breakpoints</p>
                   <p><i class="far fa-check-circle"></i> Flex / Grid 排版</p>
                 </div>
@@ -155,7 +172,7 @@
                 </div>
                 <div class="flip-card-back">
                   <h2>JavaScript</h2>
-                  <p><i class="far fa-check-circle"></i> 熟悉 DOM 模型、this、閉包、Prototype、AJAX 等基本概念</p>
+                  <p><i class="far fa-check-circle"></i> 熟悉 DOM 模型、閉包、Prototype、AJAX、ES6+ 等基本概念</p>
                 </div>
               </div>
             </div>
@@ -195,11 +212,26 @@
                   <img class="mt-5" src="../assets/skill/vue.png" alt="Avatar" style="width:130px;height:130px;">
                 </div>
                 <div class="flip-card-back">
-                  <h2>Vue.js</h2>
+                  <h2>Vue</h2>
                   <p><i class="far fa-check-circle"></i> data 雙向綁定</p>
                   <p><i class="far fa-check-circle"></i> 模板元件化</p>
-                  <p><i class="far fa-check-circle"></i> Vue CLI</p>
-                  <p><i class="far fa-check-circle"></i> Router、 Vuex</p>
+                  <p><i class="far fa-check-circle"></i> Vuex</p>
+                  <p><i class="far fa-check-circle"></i> Router</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img class="mt-5" src="../assets/skill/React.png" alt="Avatar" style="width:130px;height:130px;">
+                </div>
+                <div class="flip-card-back">
+                  <h2>React</h2>
+                  <p><i class="far fa-check-circle"></i> Router</p>
+                  <p><i class="far fa-check-circle"></i> Redux(thunk、Saga)</p>
+                  <p><i class="far fa-check-circle"></i> Hooks</p>
                 </div>
               </div>
             </div>
@@ -212,9 +244,21 @@
                 </div>
                 <div class="flip-card-back">
                   <h2>Node.js</h2>
-                  <p><i class="far fa-check-circle"></i> NPM 套件使用</p>
-                  <p><i class="far fa-check-circle"></i> express.js 架設後端邏輯</p>
-                  <p><i class="far fa-check-circle"></i> EJS 樣板使用</p>
+                  <p><i class="far fa-check-circle"></i> npm 工具使用</p>
+                  <p><i class="far fa-check-circle"></i> Express.js 架設 Web 應用</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="../assets/skill/postman.png" alt="Avatar" style="width:150px;height:150px;">
+                </div>
+                <div class="flip-card-back">
+                  <h2>Postman</h2>
+                  <p><i class="far fa-check-circle"></i> API 測試</p>
                 </div>
               </div>
             </div>
@@ -227,8 +271,7 @@
                 </div>
                 <div class="flip-card-back">
                   <h2>Firebase</h2>
-                  <p><i class="far fa-check-circle"></i> 雲端 Data 存放</p>
-                  <p><i class="far fa-check-circle"></i> 會員資料管理及驗證</p>
+                  <p><i class="far fa-check-circle"></i> 使用 admin、database、hosting 模組</p>
                 </div>
               </div>
             </div>
@@ -241,7 +284,20 @@
                 </div>
                 <div class="flip-card-back">
                   <h2>Webpack</h2>
-                  <p><i class="far fa-check-circle"></i> 轉換 ES6、SASS、BABEL 檔案</p>
+                  <p><i class="far fa-check-circle"></i> 轉換 ES6、CSS預處理(less、sass) 檔案打包網站</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img class="mt-3" src="../assets/skill/mongodb.png" alt="Avatar" style="width:180px;height:180px;">
+                </div>
+                <div class="flip-card-back">
+                  <h2>MongoDB</h2>
+                  <p><i class="far fa-check-circle"></i> Robo 3T 操作並配合使用 mongoose library</p>
                 </div>
               </div>
             </div>
@@ -255,21 +311,9 @@
                 <div class="flip-card-back">
                   <h2>Git</h2>
                   <p><i class="far fa-check-circle"></i> Github 進行團隊協作</p>
-                  <p><i class="far fa-check-circle"></i> Github-Pages 前端部署</p>
-                  <p><i class="far fa-check-circle"></i> Heroku 後端部署</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front">
-                  <img class="mt-3" src="../assets/skill/ES6.png" alt="Avatar" style="width:120px;height:130px;">
-                </div>
-                <div class="flip-card-back">
-                  <h2>ES6</h2>
-                  <p><i class="far fa-check-circle"></i> 了解 Promise 非同步處理、解構賦值、其餘參數等概念</p>
+                  <p><i class="far fa-check-circle"></i> sourcetree 操作</p>
+                  <p><i class="far fa-check-circle"></i> Github 部署</p>
+                  <p><i class="far fa-check-circle"></i> Heroku 部署</p>
                 </div>
               </div>
             </div>
@@ -420,6 +464,23 @@
     <div id="experience">
       <div class="container">
         <h1 class="myTitle-white">Experience</h1>
+        <!-- 雲中雲 -->
+        <div class="row d-flex justify-content-center py-4">
+          <div class="col-md-3 justify-content-md-end d-none d-md-flex">
+            <div class="position-relative exInner">
+              <img class="img-fluid exImg" src="../assets/experience/iconfinder_Notebook_by_Artdesigner_60879.png" alt="img">
+              <div class="exLine"></div>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="exContent text-white">
+              <h4 class="pb-4">雲中雲 | 前端工程師 | <span class="d-inline-block"><i class="fas fa-clock"></i> 2019 年 11 月 - 2020 年 1 月</span></h4>
+              <p><i class="fas fa-tools pr-3"></i> admin 後台串接 API</p>
+              <p><i class="fas fa-tools pr-3"></i> 購彩網前台架構遷移，整個專案由 React 重構成 Vue 架構</p>
+              <p>在任職期間研究並開始使用 React 框架，因為有個重大遷移專案，必須熟悉 React 及 Vue 兩者的架構才能做到最相容的轉換，UI 元件的客製化及 jsx 的使用上得到了飛躍式的進步，並且在12月底完成遷移並測試完成。可惜在1月初陸方資金發生了一些問題，遺憾的無緣與台灣同事再繼續共事。</p>
+            </div>
+          </div>
+        </div>
         <!-- thinkpower -->
         <div class="row d-flex justify-content-center py-4">
           <div class="col-md-3 justify-content-md-end d-none d-md-flex">
@@ -430,7 +491,7 @@
           </div>
           <div class="col-md-8">
             <div class="exContent text-white">
-              <h4 class="pb-4">昕力資訊 | 前端工程師 | <span class="d-inline-block"><i class="fas fa-clock"></i> 2019 年 2 月 - 至今</span></h4>
+              <h4 class="pb-4">昕力資訊 | 前端工程師 | <span class="d-inline-block"><i class="fas fa-clock"></i> 2019 年 2 月 - 2019 年 10 月</span></h4>
               <p><i class="fas fa-tools pr-3"></i> 串接後端 Java API：CRM 專案功能查詢、新增、刪除、修改</p>
               <p><i class="fas fa-tools pr-3"></i> 前端 UI/UX 調整頁面邏輯：List Data 的 filter、彈跳資訊或提示的視窗、相關 loading 效果、等...</p>
               <p><i class="fas fa-tools pr-3"></i> 協助解決 Browser (Chrome、Safari、IE) 與裝置(電腦、手機、平板)之間的相容問題</p>
@@ -593,7 +654,7 @@
         viewprotH: 0,
         viewprotW: 0,
         windowH: 0,
-        skillDispaly:'gallery',
+        skillDispaly:'list',
         works_modal: {},
         navLinksH: {},
         works: [{
@@ -872,18 +933,29 @@
 
 
   .myNav {
-    background: rgb(37, 43, 66);
+    // background: rgb(37, 43, 66);
     position: sticky;
     top: 0;
     z-index: 100;
+    transition: background-color 0.3s;
+  }
+
+  .myNav.scroll-color {
+    background: rgba(37, 43, 66, 0.801);
   }
 
   .myNav a {
     color: rgb(253, 253, 253);
+    transition: color 0.3s;
+  }
+
+  .myNav a:hover {
+    color: rgb(71, 227, 255);
   }
 
   .myNav a.active {
     color: rgb(71, 227, 255);
+    border-bottom: rgb(71, 227, 255) 3px solid;
   }
 
   .myShadow {
@@ -958,7 +1030,7 @@
 
 
   .bgWhite {
-    background: rgba(65, 65, 65, 0.568);
+    background: rgba(129, 129, 129, 0.568);
     border-radius: 10px;
     color: white;
     text-shadow: 3px 3px 6px #000000;
@@ -1052,9 +1124,10 @@
     padding-top: 60px;
     background: rgb(245, 245, 245);
     padding-bottom: 180px;
-    background-image: url("../assets/about.jpeg");
-    background-size: cover;
+    background-image: url("../assets/aboutBg.png");
+    background-size: 50%;
     background-position: center center;
+    background-color: rgb(17, 174, 189);
   }
 
 
