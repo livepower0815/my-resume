@@ -172,7 +172,7 @@
                 </div>
                 <div class="flip-card-back">
                   <h2>JavaScript</h2>
-                  <p><i class="far fa-check-circle"></i> 熟悉 DOM 模型、閉包、Prototype、AJAX、ES6+ 等基本概念</p>
+                  <p><i class="far fa-check-circle"></i> 熟悉 DOM 模型、閉包、AJAX、WebSocket、ES6+ 等基本概念</p>
                 </div>
               </div>
             </div>

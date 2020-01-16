@@ -31,7 +31,7 @@
 ### 前端
 * **Vue.js** - data 雙向綁定、模板元件化、Router、Vuex
 * **React** - Router、Redux(thunk、Saga)、Hooks
-* **JavaScript** - 熟悉 DOM 模型、閉包、Prototype、AJAX、ES6+ 等基本概念
+* **JavaScript** - 熟悉 DOM 模型、閉包、AJAX、WebSocket、ES6+ 等基本概念
 * **jQuery** - 為網頁添加具互動性的效果
 * **HTML/CSS** - 能撰寫語意化標籤、排版
 
