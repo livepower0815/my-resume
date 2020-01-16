@@ -105,7 +105,7 @@
             <ul>
               <li><b>Vue</b> - data 雙向綁定、模板元件化、Router、Vuex</li>
               <li><b>React</b> - Router、Redux(thunk、Saga)、Hooks</li>
-              <li><b>JavaScript</b> - 熟悉 DOM 模型、閉包、Prototype、AJAX、ES6+ 等基本概念</li>
+              <li><b>JavaScript</b> - 熟悉 DOM 模型、閉包、AJAX、WebSocket、ES6+ 等基本概念</li>
               <li><b>jQuery</b> - 為網頁添加具互動性的效果</li>
               <li><b>HTML/CSS</b> - 能撰寫語意化標籤、排版</li>
             </ul>
