@@ -61,7 +61,7 @@
 2. [**MonkeyShot 猴寶拍拍-電子商務**](https://livepower0815.github.io/my-vue-cli3/dist/)
     * [**github專案**](https://github.com/livepower0815/my-vue-cli3)
     * Vue cli、webpack 開發擁有購物車及結帳系統的 SPA 網頁
-    * 搭建 Heroku 串接 智付通第三方金流 API 
+    * 搭建 Heroku 串接 智付通第三方金流 API
     * axios 串接後端 API 商務
     * Bootstrap4、SASS 製作 RWD 網頁
     * 擁有可編輯上傳商品的後台 dashboard (如需後台帳密可洽詢本人)
@@ -91,7 +91,7 @@
 
 
 ## 經歷(Experience)
-#### 雲中雲 | 前端工程師 | 2019 年 11 月 - 2019 年 1 月
+#### 雲中雲 | 前端工程師 | 2019 年 11 月 - 2020 年 1 月
 * admin 後台串接 API
 * 購彩網前台架構遷移，整個專案由 React 重構成 Vue 架構
 
