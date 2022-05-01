@@ -291,14 +291,6 @@ body {
   background: rgba(37, 43, 66, 0.835);
 }
 
-
-.bgWhite {
-  background: rgba(129, 129, 129, 0.568);
-  border-radius: 10px;
-  color: white;
-  text-shadow: 3px 3px 6px #000000;
-}
-
 .img-profile {
   height: 400px;
   width: 400px;
@@ -385,10 +377,10 @@ body {
 
 #about {
   padding-top: 60px;
+  padding-bottom: 60px;
   background: rgb(245, 245, 245);
-  padding-bottom: 180px;
-  background-image: url("../assets/aboutBg.png");
-  background-size: 50%;
+  background-image: url("../assets/about.jpg");
+  background-size: cover;
   background-position: center center;
   background-color: rgb(17, 174, 189);
 }
@@ -412,15 +404,14 @@ body {
 
 #works {
   padding-top: 60px;
-  background-image: url('../assets/projects.jpeg');
+  background-image: url('../assets/project.jpeg');
   background-position: center center;
   background-size: cover;
-  padding-bottom: 130px;
-
+  padding-bottom: 100px;
 }
 
 #works h3 {
-  color: rgb(37, 43, 66);
+  color: #e8eaf2;
 }
 
 #experience {

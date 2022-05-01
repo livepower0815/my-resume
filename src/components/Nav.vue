@@ -58,7 +58,7 @@ export default {
 }
 
 .myNav.scroll-color {
-  background: rgba(37, 43, 66, 0.801);
+  background: rgba(30, 35, 56, 0.916);
 }
 
 .myNav a {
