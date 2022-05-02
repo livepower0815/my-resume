@@ -12,12 +12,18 @@
 ## 關於我(About Me)
 世上沒有困難事，熱誠及興趣能維持你向前的動力。
 
-Hello 您好，我叫做 陳宏宇 ( Kerry )
+＊ 三年+ WEB 前端開發經驗
+＊ 後台管理介面規劃
+＊ 前端即時訊息應用整合
+＊ 跨團隊合作交流能力
+
+嗨您好，我叫做 陳宏宇 ( Kerry )
+我擁有三年的前端開發經驗（Vue: 3年, React: 2月），目前負責過 客戶關係＆彩票平台＆即時訊息 等大型專案開發。
+近一年已能獨立主導大型應用、規劃前端團隊人力調派，並透過自身的溝通技巧協調跨部門的合作方針。
+此外，我也經常去探索當前主流的框架技術，並針對專案情境，適當的引入部分核心技術提升團隊開發量能。
 我是個善於交流及溝通的人，同時也是有個快樂家庭的小爸爸，這個身份讓我獲得更多的責任感及抗壓能力。
-我擁有三年的前端開發經驗（Vue: 3年, React: 2月）。
-近一年已能獨立主導大型應用、規劃前端團隊人力資源、協調跨部門的合作方針、引入部分核心技術提升團隊開發量能。
-我喜歡學習新的事物並研究各種技術來整合使用，所以會定期設定讀書單或是線上課程學習列表。
-並在不斷的追求、不斷的學習、不斷的創作的過程中，看到他人對於我的作品展現出笑容，這成就感使我覺得人生無比富有。
+我喜歡學習新的事物並研究各種技術來整合使用，會定期設定讀書單或是線上課程學習列表或是參加線上講座。
+在不斷的追求、不斷的學習、不斷的創作的過程中，看到他人對於我的作品展現出笑容，這成就感使我覺得人生無比富有。
 
 ## 技能(Skill)
 ### FE-Framework ▾
@@ -40,44 +46,6 @@ Hello 您好，我叫做 陳宏宇 ( Kerry )
 * **Bootstrap**／**AntD**／**Element-UI**／**Vant**／**Tailwind**／**Windy**
 ### Database ▾
 * **Firebase**／**MongoDB**
-
-
-## 個人作品及專案(Porgram Project)
-1. [**返多寶**](https://www.fundobit.com/)
-    * Vue & Element UI & i18n
-    * 虛擬貨幣手續優惠整合平台
-    * RWD 設計
-    * 多國語系支援
-
-1. [**流程 GUI 設定介面**](https://livepower0815.github.io/flow-setting/dist/)
-    * [**github專案**](https://github.com/livepower0815/flow-setting)
-    * Vue & Element UI & jsplumb
-    * 基於 Element UI 及 jsplumb 的流程設定介面
-
-1. **CRM Web App 客戶關係管理網頁平台** (版權問題無法提供 Demo)
-    * Vue & Vuex & Google Maps
-    * 管理客戶保單資訊及推薦最佳組合範例。
-
-2. [**MonkeyShot 猴寶拍拍-電子商務**](https://livepower0815.github.io/my-vue-cli3/dist/)
-    * [**github專案**](https://github.com/livepower0815/my-vue-cli3)
-    * Vue cli & Bootstrap4
-    * 開發擁有購物車及結帳系統的 SPA 網頁
-    * 搭建 Heroku 串接 智付通第三方金流 API
-    * axios 串接後端 API 商務
-    * 擁有可編輯上傳商品的後台 dashboard (如需後台帳密可洽詢本人)
-
-4. [**個人履歷網站**](https://livepower0815.github.io/my-resume/dist/)
-    * [**github專案**](https://github.com/livepower0815/my-resume)
-    * Vue cli & Bootstrap4
-
-5. **Others**
-    * [**夢想家Blog**](https://limitless-wildwood-49993.herokuapp.com/)
-    * [**Youtube API 影片搜尋**](https://livepower0815.github.io/React-youtube-API/build/) - React & Youtube
-    * [**Unsplash API 圖片牆**](https://livepower0815.github.io/react-image-wall/build/) - React & Unsplash
-    * [**BMI 計算器**](https://livepower0815.github.io/test1/hexSchool/day17(BMI計算)/)
-    * [**船戰遊戲**](https://livepower0815.github.io/test1/hexSchool/the%20first%20days/battleShip.html)
-
-
 
 ## 經歷(Experience)
 #### 天堂遊戲 | 前端工程師 | 2020 年 3 月 - 在職
@@ -113,7 +81,7 @@ core tech：Knockout／Golang／Vue／Linux／Jenkins
 * admin 後台串接 API
 * 購彩網前台架構遷移，整個專案由 React 重構成 Vue 架構
 
-在任職期間研究並開始使用 React 框架，因為有個重大遷移專案，必須熟悉 React 及 Vue 兩者的架構才能做到最相容的轉換，UI 元件的客製化及`jsx`的使用上得到了飛躍式的進步，並且在12月底完成遷移並測試完成。可惜在1月初陸方資金發生了一些問題，遺憾的無緣與台灣同事再繼續共事。
+在任職期間研究並開始使用 React 框架，因為有個重大遷移專案，必須熟悉 React 及 Vue 兩者的架構才能做到最相容的轉換，UI 元件的客製化及`jsx`的使用上得到了飛躍式的進步，並且在12月底完成遷移並測試完成。1月初台方撤資，遺憾的無緣與台灣同事再繼續共事。
 
 #### 昕力資訊 | 前端工程師 | 2019 年 2 月 - 2019 年 10 月
 * 串接後端 Java API：CRM 專案功能查詢、新增、刪除、修改
@@ -122,6 +90,50 @@ core tech：Knockout／Golang／Vue／Linux／Jenkins
 * 幫前端設計團隊撰寫 mock 以利設計師切版時候的作業，並有效與前端設計公司做版面整合及調整
 
 主要負責客戶關係管理專案前端 Vue.js，依照客戶 SPEC 串接後端 API 、撰寫前端邏輯、向設計師溝通調整 UI/UX layout
+
+## 個人作品及專案(Porgram Project)
+1. [**返多寶**](https://www.fundobit.com/)
+    * Vue & Element UI & i18n
+    * 虛擬貨幣手續優惠整合平台
+    * RWD 設計
+    * 多國語系支援
+2. [**MonkeyShot 猴寶拍拍-電子商務**](https://livepower0815.github.io/my-vue-cli3/dist/)
+    * [**github專案**](https://github.com/livepower0815/my-vue-cli3)
+    * Vue cli & Bootstrap4
+    * 開發擁有購物車及結帳系統的 SPA 網頁
+    * 搭建 Heroku 串接 智付通第三方金流 API
+    * axios 串接後端 API 商務
+    * 擁有可編輯上傳商品的後台 dashboard (如需後台帳密可洽詢本人)
+
+3. [**流程 GUI 設定介面**](https://livepower0815.github.io/flow-setting/dist/)
+    * [**github專案**](https://github.com/livepower0815/flow-setting)
+    * Vue & Element UI & jsplumb
+    * 基於 Element UI 及 jsplumb 的流程設定介面
+
+4. **CRM Web App 客戶關係管理網頁平台** (版權問題無法提供 Demo)
+    * Vue & Vuex & Google Maps
+    * 管理客戶保單資訊及推薦最佳組合範例。
+
+5. [**個人履歷網站**](https://livepower0815.github.io/my-resume/dist/)
+    * [**github專案**](https://github.com/livepower0815/my-resume)
+    * Vue cli & Bootstrap4
+
+6. [**夢想家Blog**](https://limitless-wildwood-49993.herokuapp.com/)
+    * [**github專案**](https://github.com/livepower0815/myBlogApp)
+    * node.js、express 開發的後端 Blog
+    * EJS 樣板渲染前端網頁
+    * Bootstrap4 製作 RWD 網頁
+    * 整合 Firebase 完成會員功能、留言板功能
+    * 擁有可編輯上傳文章的後台 dashboard (如需後台帳密可洽詢本人)
+
+7. [**Youtube API 影片搜尋**](https://livepower0815.github.io/React-youtube-API/build/)
+    * [**github專案**](https://github.com/livepower0815/my-resume)
+    * React & Youtube API
+
+8. **Others**
+    * [**Unsplash API 圖片牆**](https://livepower0815.github.io/react-image-wall/build/) - React & Unsplash
+    * [**BMI 計算器**](https://livepower0815.github.io/test1/hexSchool/day17(BMI計算)/)
+    * [**船戰遊戲**](https://livepower0815.github.io/test1/hexSchool/the%20first%20days/battleShip.html)
 
 ## 學歷(Education)
 ### 國立虎尾科技大學 2006 年 9 月 - 2010 年 6 月
