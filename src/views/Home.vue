@@ -25,7 +25,7 @@
 
     <!-- 這裡是 Footer  -->
     <div id="footer">
-      <p class="text-white">Copyright © Kerry Resume Website 宏宇簡歷網頁</p>
+      <p class="text-white">Copyright © Kerry Resume Website</p>
     </div>
 
   </div>
@@ -393,15 +393,6 @@ body {
   background-image: linear-gradient(to bottom, rgb(37, 37, 37), rgb(39, 47, 83), rgb(39, 47, 83), rgb(37, 37, 37));
 }
 
-.skillList h3 {
-  padding: 20px 0 10px 0;
-}
-
-.skillList li {
-  padding: 5px;
-  font-size: 18px;
-}
-
 #works {
   padding-top: 60px;
   background-image: url('../assets/project.jpeg');
@@ -490,7 +481,7 @@ body {
 
 #footer {
   background: rgb(37, 43, 66);
-  height: 20vh;
+  height: 10vh;
   position: relative;
 }
 

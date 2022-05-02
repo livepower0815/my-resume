@@ -9,7 +9,7 @@
         <div class="col-md-6 d-flex align-items-center">
           <div class="p-4 my-3 bgWhite">
             <p>Hello 您好，我叫做 陳宏宇 ( Kerry )</p>
-            <p>你好我是Kerry，是個善於交流及溝通的人，同時也是有個快樂家庭的小爸爸，這個身份讓我獲得更多的責任感及抗壓能力。</p>
+            <p>我是個善於交流及溝通的人，同時也是有個快樂家庭的小爸爸，這個身份讓我獲得更多的責任感及抗壓能力。</p>
             <p>我擁有三年的前端開發經驗（Vue: 3年, React: 2月）。</p>
             <p>近一年已能獨立主導大型應用、規劃前端團隊人力資源、協調跨部門的合作方針、引入部分核心技術提升團隊開發量能。</p>
             <p>我喜歡學習新的事物並研究各種技術來整合使用，所以會定期設定讀書單或是線上課程學習列表。</p>
@@ -35,7 +35,7 @@ export default {
 
 <style lang="scss" scoped>
 .bgWhite {
-  // background: rgba(129, 129, 129, 0.568);
+  background: #222b43cb;
   border-radius: 10px;
   color: white;
   text-shadow: 2px 2px 4px #000000;
