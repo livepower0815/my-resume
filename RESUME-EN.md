@@ -11,18 +11,19 @@
 * Linkedin: https://www.linkedin.com/in/kerry-chen-39558617b/
 
 ## About me
-『 Nothing is difficult in the world, as long as you are willing to climb with your passion and interest. 』
+『 Stay hungry. Stay foolish. 』
+
 ＊ 3Y Experience on WEB Front-end Development
-＊ Planning Background Management Interface
+＊ Planning Backstage Interface
 ＊ Integration of Front-end Instant Messaging Applications
 ＊ Good at Cross-team cooperation and Communication
 
 Hi
-My name is Kerry Chen, I have 3 years experiences of Front-end development. (Vue: 3y, React:2m). I have developed for many large projects such as Customer Relation Management Web, Lottery Platform Web and Instant Message Web.  In the past year, I have been able to lead the large project development, manage the front-end team, and coordinate cross-departmental cooperation policies through with good communication skills. Besides, I usually explored current hot skill and brought those technology into different project and promoted the development volume.
+My name is Kerry Chen, I have 3 years experiences of Front-end development. (Vue: 3y, React: 2m). I have developed for many large projects such as CRM App, Lottery Platform and IM App.
 
-I am a person who is good at communication and also a father with a happy family. This identity allows me to gain more sense of responsibility and ability to resist pressure.
+In the past year, I have been able to lead the large project development, manage the front-end team, and coordinate cross-departmental cooperation policies through my communication skill. Besides, I usually explored current popular skills and brought those technology into different project and improve the development energy.
+
 I liked to learn new things and researched different technology and combined them to use. I always read book, take online course and join online lecture after working.
-In the process of learning, creating and advancing, I saw others smile at my project, this sense of accomplishment made me feel that life was extremely rich.
 
 ## Skill
 
@@ -55,49 +56,58 @@ In the process of learning, creating and advancing, I saw others smile at my pro
 ## Experience
 #### Paradise Soft | Front-end Engineer | 2020 March - current
 
-▲ Milestone：
-◎ Implant TypeScript Fixed Various Message Formats into Chat System and fully utilize the feature of VS Code tooling.
-◎ Implant Vue3 with Vite environment into new project, save the development time and optimize the KPI.
-◎ Implement Fragment Caching Algorithm to integrate back-end API and local message data to achieve local fragment caching.
-◎ Assist the team to introduce the Unit Testing and lead the demo of the asynchronous process.
-◎ Set up CICD packaged progress／Optimize docker file pipe／Split gitlab CD environment／rencher and jenkins config setting。
-◎ Implement multi-languages and implement language json package/ integration back-end script/ split custom templates from some languages.
-◎ Implemented the GUI setting interface of the intelligent customer service process to improve the intuitive sense of use.
-◎ Integrate Jira API to customize the display interface according to the company's task process, so as to improve the use of Jira by colleagues and reduce the inconvenience of supervisors inquiring about the team's working hours. 
-◎ Progressively refactor Knockout to Vue framework to achieve separation of front and back ends. Local efficiency, maintainability and clear division of labor have been effectively improved.
+▼ Milestone：
+◎ Progressively refactor `Knockout` to `Vue` framework to achieve separation of front-end and back-end.
 
-▲ Responsible for：
-1. IM Application
-description：Like the What App Web。
+◎ Import `Vue3` ＆ `Vite` into new project, reduce work schedule and optimize front-end performance.
+
+◎ Import `TypeScript` to fixed message structure on Chat System and make full use of the VS Code tooling feature.
+
+◎ Implement fragment caching system for chat APP to improve performance and reduce network data.
+
+◎ Assist the team to import the `Unit Test` and achieving more than 85% code coverage.
+
+◎ Set up CI/CD script and optimize `dockerfile` layer.
+
+◎ Import `i18n` and create language json package / integration back-end messages / split custom templates for specific languages.
+
+◎ Implemented the GUI setting of the intelligent customer service to improve the user experience.
+
+◎ Integrate `Jira` API to customize the worklog display interface.
+
+▼ Responsible for：
+1. Instant Messaging Application
 core tech：Vue3／TypeScript／Pinia／Vite／Docker／Jenkins
-2. CSR Application
-description：Communication tool for customer feedback of the main product。
+
+2. Customer Service Representive Application
 core tech：Vue／Vuex／Element UI／Jest／i18n／Webpack／Docker／Rancher
+
 3. Jira Job Order Management System
-description：Internal Demand Job Order Management System
 core tech：Vue／Antd UI／Echarts／Webpack／Docker／Rancher
+
 4. Lottery Draw Website
-description： Instant and historical records of all kinds of lottery draws。
 core tech：Nuxt／Linux／Echarts／Canvas
-5. Lottery Official Website、Backstage
-description： refactoring the old structure and developed at the same time。
+
+5. Lottery Official Website ＆ Backstage
 core tech：Knockout／Golang／Vue／Linux／Jenkins
 
 #### 雲中雲有限公司 | Front-end Engineer | Nov, 2019 – Jan, 2020
-* admin background tandem API
-* The front-end architecture of the company was migrated, and the entire project was reconstructed from React to Vue architecture
+* Refactoring Lottrey Web framework.
+* Lottrey Admin new feature development.
 
-During my tenure, I studied and started to use the React framework. Because there is a major migration project, I must be familiar with the architectures of React and Vue to achieve the most compatible conversion. The customization of UI components and the use of `jsx` have been achieved. A leap forward, and the migration and testing are complete by the end of December. At the beginning of January, the Taiwan side withdrew its capital, and regrettably did not have the chance to continue working with Taiwan colleagues.
+TODO: 雲中雲敘述待翻譯
 
 #### THINKPOWER INFORMATION CORP. | Front-end Engineer | Feb, 2019 – Oct, 2019
-* Chained back-end Java API: CRM project function query, add, delete, modify
-* Front-end UI/UX adjustment page logic: filter of List Data, window of pop-up information or prompt, related loading effect, etc...
-* Assist in resolving compatibility issues between Browser (Chrome, Safari, IE) and devices (Computer, Phone, Tablet)
-* Help the front-end design team to write mocks to facilitate the designer's work when cutting the layout, and effectively integrate and adjust the layout with the front-end design company.
+* Connect back-end `Java RESTful API`.
+* Front-end UI/UX adjustment page logic with the design department.
+* Assist in resolving compatibility issues between Browser and devices.
+* Create mock data for development and testing.
 
-Mainly responsible for the front-end Vue.js of the customer relationship management project, connect the back-end API according to the customer's SPEC, write the front-end logic, communicate with the designer to adjust the UI/UX layout
+Mainly responsible for the front-end Vue.js of the customer relationship management project, connect the back-end API according to the customer's SPEC, write the front-end logic, communicate with the designer to adjust the UI/UX layout.
 
-## Personal Portfolio Project
+
+TODO: Projects 待翻譯
+## Projects
 1. [**Fundobit**](https://www.fundobit.com/)
 * Vue & Element UI & i18n
 * Virtual currency procedure discount integration platform
@@ -149,10 +159,5 @@ Mainly responsible for the front-end Vue.js of the customer relationship managem
 
 #### Department of Industrial Management
 
-#### Graduation Association - Celebrity Speech Lecture Planning
-At that time, I invited Chen Handian to the school from the brokerage company. I had to build a bridge of communication between the school affairs and the brokerage company, and coordinate the finalization of the speech fee, so that the brokerage company could accept it and the school bureau was reasonable. my coordination ability.
-
-#### Guitar Club – leader of the performance in the end of semester
-Responsible for the arrangement of the event personnel, the formulation of the event process, the selection and exploration of the venue, and the visit to the surrounding businesses to provide event sponsorship.
 
 # Kerry-resume
