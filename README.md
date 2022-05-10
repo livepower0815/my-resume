@@ -84,7 +84,7 @@ core tech：Knockout／Golang／Vue／Linux／Jenkins
 
 主要負責客戶關係管理專案前端 Vue.js，依照客戶 SPEC 串接後端 API 、撰寫前端邏輯、向設計師溝通調整 UI/UX layout。
 
-## 個人作品及專案(Porgram Project)
+## 個人作品及專案(Projects)
 1. [**返多寶**](https://www.fundobit.com/)
     * Vue & Element UI & i18n
     * 虛擬貨幣手續優惠整合平台
