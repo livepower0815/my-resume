@@ -10,7 +10,7 @@
 * Linkedin: https://www.linkedin.com/in/kerry-chen-39558617b/
 
 ## 關於我(About Me)
-世上沒有困難事，熱誠及興趣能維持你向前的動力。
+『 世上沒有困難事，熱誠及興趣能維持你向前的動力。 』
 
 ＊ 三年+ WEB 前端開發經驗
 ＊ 後台管理介面規劃
