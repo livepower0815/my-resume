@@ -74,7 +74,7 @@ core tech：Knockout／Golang／Vue／Linux／Jenkins
 * 彩票前台跨框架重構
 * 彩票後台新功能開發
 
-在任職期間研究並開始使用 React 框架，主要負責重構彩票前台 `React` 轉成 `Vue` 架構，充分熟悉 UI 元件的客製化及跨框架的 `jsx` 差異。
+在任職期間研究並開始使用 React 框架，主要負責重構彩票前台 `React` 轉成 `Vue` 架構，充分熟悉 UI 元件的客製化及架 jsx 的語法差異。
 
 #### 昕力資訊 | 前端工程師 | 2019 年 2 月 - 2019 年 10 月
 * 串接後端 `Java RESTful API`
@@ -86,22 +86,20 @@ core tech：Knockout／Golang／Vue／Linux／Jenkins
 
 ## 個人作品及專案(Projects)
 1. [**返多寶**](https://www.fundobit.com/)
-    * Vue & Element UI & i18n
-    * 虛擬貨幣手續優惠整合平台
+    * Vue & Element UI
     * RWD 設計
-    * 多國語系支援
+    * i18n 支援
 2. [**MonkeyShot 猴寶拍拍-電子商務**](https://livepower0815.github.io/my-vue-cli3/dist/)
     * [**github專案**](https://github.com/livepower0815/my-vue-cli3)
     * Vue cli & Bootstrap4
     * 開發擁有購物車及結帳系統的 SPA 網頁
     * 搭建 Heroku 串接 智付通第三方金流 API
-    * axios 串接後端 API 商務
     * 擁有可編輯上傳商品的後台 dashboard (如需後台帳密可洽詢本人)
 
 3. [**流程 GUI 設定介面**](https://livepower0815.github.io/flow-setting/dist/)
     * [**github專案**](https://github.com/livepower0815/flow-setting)
-    * Vue & Element UI & jsplumb
-    * 基於 Element UI 及 jsplumb 的流程設定介面
+    * VVue & Element UI
+    * 透過 jsplumb 實踐 GUI 介面
 
 4. **CRM Web App 客戶關係管理網頁平台** (版權問題無法提供 Demo)
     * Vue & Vuex & Google Maps
@@ -121,7 +119,8 @@ core tech：Knockout／Golang／Vue／Linux／Jenkins
 
 7. [**Youtube API 影片搜尋**](https://livepower0815.github.io/React-youtube-API/build/)
     * [**github專案**](https://github.com/livepower0815/my-resume)
-    * React & Youtube API
+    * 使用 React 框架開發
+    * 搭配 Youtube API 撰寫影片搜尋應用
 
 8. **Others**
     * [**Unsplash API 圖片牆**](https://livepower0815.github.io/react-image-wall/build/) - React & Unsplash
