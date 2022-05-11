@@ -10,12 +10,15 @@ my Major is Industrial Management
 畢業後從事了本科相關的工作大約 8 年多
 After graduating, I worked in this field for about 8 years.
 
-並在 2020 年初開始了前端工程師的職涯
-I started my front-end engineer career in early 2020
+並在 2019 年開始了前端工程師的職涯
+I started my front-end engineer career in 2020
 
-我第一間公司是做人力外包，我主要負責的產品是客戶關西管理
-My first job was at a human resource outsourcing company.
-One of my main accomplishments there was developing a system for customer relationship management.
+有三年的前端開發經驗
+I have 3 years experiences of the web development.
+
+我第一間公司是做外包，我主要負責的產品是客戶關西管理
+My first job was at a outsourcing company.
+One of my main accomplishments there was developing a CRM system.
 
 這商品是給保險人員使用的
 This product is mainly used by insurance staff
@@ -27,7 +30,7 @@ The core technology is the Vue framework
 I have got a lot of cross-teamwork skills in this job
 
 同時一些基本技巧也在逐漸成熟
-At the same time, I started to gain some front-end engeering skills.
+At the same time, I started to gain some front-end basic skills.
 
 第二份 是一間博弈公司
 and then The second job is a gambling company
@@ -44,20 +47,24 @@ After that, I came to my current company which is also a gambling company.
 比較不同的是我在裡面主要負責非博弈相關產品，聊天系統。
 The main difference is that now I am mainly responsible for non-gambling relat`ed` products, such as the chat system.
 
-由於之前任職的團隊不是一個人就是三人以下。我終於接觸到架構比較完整的前端團隊。這很重要
-This is important, because I always worked by myself or in teams of less than three members in the past.
-This was my first opportunity to work in a team with more structure
+由於之前任職的團隊都是我一個人，我終於接觸到架構比較完整的前端團隊。
+This was my first opportunity to work in a team with perfect constructure, because I always worked by myself in the past year.
 
 他們在工作分配上劃分明確
 They have a clear division of work assignments.
 
 各方面的技術都可以互相交流
-We can exchange ideas about any skills and help each other.
+We can exchange ideas with each other about any skills.
 
-在這兩年的時間內我在專案架構的規劃、devOps 層面的知識、甚至是前端團隊工作的安排
+我在專案架構的規劃、甚至是前端團隊工作的安排
 都有不錯的發揮空間
-I had a lot of room to improve my ability for project structure planning,
-devOps knowhow, and assigning front-end tas`ks` to my team members in the past two years.
+I had improved my ability for project structure planning.
+
+前端團隊工作的安排
+I am familiar with assigning front-end tas`ks` to my team members. ????
+
+都是這兩年發生的事
+It was happened in the past two years.
 
 以上就是我簡短的自我介紹 謝謝
 Thank you for your time.
