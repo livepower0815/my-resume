@@ -18,11 +18,11 @@
 ＊ Good at cross-team communication and cooperation
 ＊ Passionate about learning and using new technologies
 
-My name is Kerry Chen. I have 3 years experiences of web development. (Vue: 3y, React: 2m). I have developed for many large projects such as CRM App, Lottery Platform and IM App.
+My name is Kerry Chen, I have 3 years experiences of web development. (Vue: 3y, React: 2m). I have developed for many large projects such as CRM App, Lottery Platform and IM App.
 
-In the past year, I have been able to lead the large project development, manage the front-end team, and coordinate cross-departmental cooperation policies through my communication skill. Besides, I usually explore current popular skills and bring them into different projects and improve the team spirit.
+In the past year, I have been able to lead the large project development, manage the front-end team, and coordinate cross-departmental cooperation policies through my communication skill. Besides, I usually explored current popular skills and brought them into different project and improve the development energy.
 
-I like to learn new things and researche different technology. Then I combine them in my work. I always read books, take online courses and join online lectures after work.
+I liked to learn new things and researched different technology and combined them to use. I always read book, take online course and join online lecture after working.
 
 ## Skill
 
@@ -97,10 +97,10 @@ core tech：Knockout／Golang／Vue／Linux／Jenkins
 During my tenure, I studied and started to use the React framework, mainly responsible for refactoring the lottery web React into Vue structure, familiar with the customization of UI components and the syntax differences of jsx.
 
 #### Think Power | Front-end Developer | Feb, 2019 – Oct, 2019
-* Connecting back-end Java RESTful API.
+* Connect back-end Java RESTful API.
 * Front-end UI/UX adjustment page logic with the design department.
-* Assisting in resolving compatibility issues between Browser and devices.
-* Creating mock data for development and testing.
+* Assist in resolving compatibility issues between Browser and devices.
+* Create mock data for development and testing.
 
 Mainly responsible for the front-end Vue.js of the customer relationship management project, connect the back-end API according to the customer's SPEC, write the front-end logic, communicate with the designer to adjust the UI/UX layout.
 
