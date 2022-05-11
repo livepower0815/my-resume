@@ -14,44 +14,29 @@
         <div class="col-md-8">
           <div class="exContent text-white">
             <h4 class="pb-4">天堂遊戲 | 前端工程師 | <span class="d-inline-block"><i class="fas fa-clock"></i> 2020 年 3 月 - 在職</span></h4>
-            <p style="font-weight: 500; font-size: 20px;">▲ Milestone：</p>
+            <p style="font-weight: 500; font-size: 20px;">▼ Milestone：</p>
             <p style="line-height: 32px;">
-              ◎ 聊天系統引入 TypeScript 固定各類訊息格式，並充分利用 VS Code toolling 特性。<br>
+              ◎ 漸進式重構 Knockout 至 Vue 框架，達成前後端分離。<br>
               ◎ 新專案導入 Vue3 配上 Vite 打包環境，節省開發時間及優化前端效能。<br>
-              ◎ 實作片段緩存演算，以整合後端API及本地訊息資料，達到本地端片段緩存。<br>
-              ◎ Assist the team to introduce the Unit Testing and lead the demo of the asynchronous process.<br>
-              ◎ CICD打包部署流程建置／docker file pipe 優化／gitlab CD 拆分環境／ rencher and jenkins config setting。<br>
-              ◎ 引入多語系並實作語言json包／後端文案整合／部分語系拆分客製化樣板<br>
-              ◎ 實作智能客服流程ＧＵＩ設定介面，提升使用直覺感。<br>
-              ◎ 整合 Jira API 因應公司任務流程來客製化顯示介面，以提升同仁對於Jira使用度及降低主管查詢團隊工時的不便性。<br>
-              ◎ 漸進式重構 Knockout 至 Vue 框架，達成前後端分離。局部效能、維護性及明確分工得到有效提升。
+              ◎ 聊天系統引入 TypeScript 固定各類訊息格式，並有效利用 VS Code 工具提示。<br>
+              ◎ 為聊天系統實作片段緩存機制，提升顯示效能及減少網路流量。<br>
+              ◎ 協助團隊導入單元測試並達成 85％ 以上覆蓋率.<br>
+              ◎ CI/CD 腳本建置及 dockerfile layer 優化。<br>
+              ◎ 引入 i18n 並實作語言json包／後端文案整合／部分語系拆分客製化樣板。<br>
+              ◎ 實作智能客服流程圖形化設定介面，提升使用直覺感。<br>
+              ◎ 整合 Jira API 來客製化任務工時顯示介面。<br>
             </p>
-            <p style="font-weight: 500; font-size: 20px;">▲ Responsible for：</p>
-            <p><i class="fas fa-tools pr-3"></i> IM Application</p>
-            <p>
-              description：Like the What App Web。<br>
-              core tech：Vue3／TypeScript／Pinia／Vite／Docker／Jenkins
-            </p>
-            <p><i class="fas fa-tools pr-3"></i> CSR Application</p>
-            <p>
-              description：Communication tool for customer feedback of the main product。<br>
-              core tech：Vue／Vuex／Element UI／Jest／i18n／Webpack／Docker／Rancher
-            </p>
+            <p style="font-weight: 500; font-size: 20px;">▼ Responsible for：</p>
+            <p><i class="fas fa-tools pr-3"></i> 即時通訊平台</p>
+            <p>core tech：Vue3／TypeScript／Pinia／Vite／Docker／Jenkins</p>
+            <p><i class="fas fa-tools pr-3"></i> 客服系統</p>
+            <p>core tech：Vue／Vuex／Element UI／Jest／i18n／Webpack／Docker／Rancher</p>
             <p><i class="fas fa-tools pr-3"></i> Jira 工單管理系統</p>
-            <p>
-              description：內部需求工單管理系統<br>
-              core tech：Vue／Antd UI／Echarts／Webpack／Docker／Rancher
-            </p>
+            <p>core tech：Vue／Antd UI／Echarts／Webpack／Docker／Rancher</p>
             <p><i class="fas fa-tools pr-3"></i> 彩票開獎網</p>
-            <p>
-              description： Instant and historical records of all kinds of lottery draws。<br>
-              core tech：Nuxt／Linux／Echarts／Canvas
-            </p>
+            <p>core tech：Nuxt／Linux／Echarts／Canvas</p>
             <p><i class="fas fa-tools pr-3"></i> 彩票官網、後台</p>
-            <p>
-              description： refactoring the old structure and developed at the same time。<br>
-              core tech：Knockout／Golang／Vue／Linux／Jenkins
-            </p>
+            <p>core tech：Knockout／Golang／Vue／Linux／Jenkins</p>
           </div>
         </div>
       </div>
@@ -66,12 +51,10 @@
         </div>
         <div class="col-md-8">
           <div class="exContent text-white">
-            <h4 class="pb-4">雲中雲 | 前端工程師 | <span class="d-inline-block"><i class="fas fa-clock"></i> 2019 年 11 月 -
-                2020 年 1 月</span></h4>
-            <p><i class="fas fa-tools pr-3"></i> admin 後台串接 API</p>
-            <p><i class="fas fa-tools pr-3"></i> 購彩網前台架構遷移，整個專案由 React 重構成 Vue 架構</p>
-            <p>在任職期間研究並開始使用 React 框架，因為有個重大遷移專案，必須熟悉 React 及 Vue 兩者的架構才能做到最相容的轉換，UI 元件的客製化及 jsx
-              的使用上得到了飛躍式的進步，並且在12月底完成遷移並測試完成。1月初台方撤資，遺憾的無緣與台灣同事再繼續共事。</p>
+            <h4 class="pb-4">雲中雲 | 前端工程師 | <span class="d-inline-block"><i class="fas fa-clock"></i> 2019 年 11 月 - 2020 年 1 月</span></h4>
+            <p><i class="fas fa-tools pr-3"></i> 彩票前台跨框架重構</p>
+            <p><i class="fas fa-tools pr-3"></i> 彩票後台新功能開發</p>
+            <p>在任職期間研究並開始使用 React 框架，主要負責重構彩票前台 React 轉成 Vue 架構，充分熟悉 UI 元件的客製化及架 jsx 的語法差異。</p>
           </div>
         </div>
       </div>
@@ -86,12 +69,11 @@
         </div>
         <div class="col-md-8">
           <div class="exContent text-white">
-            <h4 class="pb-4">昕力資訊 | 前端工程師 | <span class="d-inline-block"><i class="fas fa-clock"></i> 2019 年 2 月 -
-                2019 年 10 月</span></h4>
-            <p><i class="fas fa-tools pr-3"></i> 串接後端 Java API：CRM 專案功能查詢、新增、刪除、修改</p>
-            <p><i class="fas fa-tools pr-3"></i> 前端 UI/UX 調整頁面邏輯：List Data 的 filter、彈跳資訊或提示的視窗、相關 loading 效果、等...</p>
-            <p><i class="fas fa-tools pr-3"></i> 協助解決 Browser (Chrome、Safari、IE) 與裝置(電腦、手機、平板)之間的相容問題</p>
-            <p><i class="fas fa-tools pr-3"></i> 透過 Sourcetree 幫前端設計團隊撰寫假資料以利設計師切版時候的作業，並有效與前端設計公司做版面整合及調整</p>
+            <h4 class="pb-4">昕力資訊 | 前端工程師 | <span class="d-inline-block"><i class="fas fa-clock"></i> 2019 年 2 月 - 2019 年 10 月</span></h4>
+            <p><i class="fas fa-tools pr-3"></i> 串接後端 Java RESTful API</p>
+            <p><i class="fas fa-tools pr-3"></i> 與設計部門協調 UI/UX 邏輯</p>
+            <p><i class="fas fa-tools pr-3"></i> 解決瀏覽器與裝置的相容問題</p>
+            <p><i class="fas fa-tools pr-3"></i> 測試資料 mock 建置</p>
             <p>主要負責客戶關係管理專案前端 Vue.js，依照客戶 SPEC 串接後端 API 、撰寫前端邏輯、向設計師溝通調整 UI/UX layout。</p>
           </div>
         </div>

@@ -10,9 +10,8 @@
         <div class="col-md-6 d-flex align-items-md-center justify-content-center">
           <div class="titleHide mx-md-5">
             <div class="top-content text-center">
-              <h1 class="text_effect pb-3">Hi I'm Kerry </h1>
-              <h4 class="text_effect py-2">世上沒有困難事</h4>
-              <h4 class="text_effect py-2">熱誠及興趣能維持你向前的動力</h4>
+              <h1 class="text_effect pb-3">Hi I'm Kerry</h1>
+              <h4 class="text_effect py-2">『 求知若飢，虛心若愚 』</h4>
             </div>
           </div>
         </div>
