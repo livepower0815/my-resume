@@ -1,20 +1,38 @@
 英文-自我介紹
 
-Hi 你好我叫做 kerry
+Hi my name is Kerry, nick to meet u
+
 我畢業於虎尾大學
 I graduated from Huwei University
 
 主修的項目是工業管理
-my Major is Industrial Management
+Well, I got my bachelor's degree in Industrial Management
 
 畢業後從事了本科相關的工作大約 8 年多
 After graduating, I worked in this field for about 8 years.
 
 並在 2019 年開始了前端工程師的職涯
-I started my front-end engineer career in 2020
+when 2019, I begin my front-end engineer career
 
 有三年的前端開發經驗
 I have 3 years experiences of the web development.
+
+我有良好的溝通及團隊合作能力
+I am good at communication and teamwork ability.
+
+在團隊裡 我一直都是個協調者的角色
+I've always been a coordinator on a team
+
+同時我也擅長提供問題的解決方案
+I am also familiar with providing solutions to problems
+
+Thank you for your time.
+
+That's about it for me.
+
+What else would you like to know?
+
+
 
 我第一間公司是做外包，我主要負責的產品是客戶關西管理
 My first job was at a outsourcing company.

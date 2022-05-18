@@ -20,9 +20,9 @@
 
 My name is Kerry Chen. I have 3 years experiences of web development. (Vue: 3y, React: 2m). I have developed for many large projects such as CRM App, Lottery Platform and IM App.
 
-In the past year, I have been able to lead the large project development, manage the front-end team, and coordinate cross-departmental cooperation policies through my communication skill. Besides, I usually explore current popular skills and bring them into different projects and improve the team spirit.
+In the past year, I have been able to lead the large project development, manage the front-end team, and coordinate cross-departmental cooperation policies through my communication skill. Besides, I usually explore modern popular skills and bring them into different projects and improve the team spirit.
 
-I like to learn new things and researche different technology. Then I combine them in my work. I always read books, take online courses and join online lectures after work.
+I like to learn new things and research different technology. Then I combine them in my work. I always read books, take online courses and join online lectures after work.
 
 ## Skill
 
