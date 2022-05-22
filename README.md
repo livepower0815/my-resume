@@ -74,7 +74,7 @@ core tech：Knockout／Golang／Vue／Linux／Jenkins
 * 彩票前台跨框架重構
 * 彩票後台新功能開發
 
-在任職期間研究並開始使用 React 框架，主要負責重構彩票前台 `React` 轉成 `Vue` 架構，充分熟悉 UI 元件的客製化及架 jsx 的語法差異。
+在任職期間研究並開始使用 React 框架，主要負責重構彩票前台 `React` 轉成 `Vue` 架構，充分熟悉 UI 元件的客製化及框架間 jsx 語法的差異。
 
 #### 昕力資訊 | 前端工程師 | 2019 年 2 月 - 2019 年 10 月
 * 串接後端 `Java RESTful API`
