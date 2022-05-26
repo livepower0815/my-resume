@@ -11,18 +11,18 @@
 * Linkedin: https://www.linkedin.com/in/kerry-chen-39558617b/
 
 ## About me
-『 Stay hungry. Stay foolish. 』
+『 Stay hungry. Stay foolish. 』  
 
-＊ Front-end Developer with 3+ years of experience
-＊ Familiar with improving user experience and performance optimization
-＊ Good at cross-team communication and cooperation
-＊ Passionate about learning and using new technologies
+＊ Front-end Developer with 3+ years of experience  
+＊ Familiar with improving user experience and performance optimization  
+＊ Good at cross-team communication and cooperation  
+＊ Passionate about learning and using new technologies  
 
-My name is Kerry Chen. I have 3 years experiences of web development. (Vue: 3y, React: 2m). I have developed for many large projects such as CRM App, Lottery Platform and IM App.
+My name is Kerry Chen. I have 3 years experiences of web development. (Vue: 3y, React: 2m). I have developed for many large projects such as CRM App, Lottery Platform and IM App.  
 
-In the past year, I have been able to lead the large project development, manage the front-end team, and coordinate cross-departmental cooperation policies through my communication skill. Besides, I usually explore modern popular skills and bring them into different projects and improve the team spirit.
+In the past year, I have been able to lead the large project development, manage the front-end team, and coordinate cross-departmental cooperation policies through my communication skill. Besides, I usually explore modern popular skills and bring them into different projects and improve the team spirit.  
 
-I like to learn new things and research different technology. Then I combine them in my work. I always read books, take online courses and join online lectures after work.
+I like to learn new things and research different technology. Then I combine them in my work. I always read books, take online courses and join online lectures after work.  
 
 ## Skill
 
@@ -55,40 +55,40 @@ I like to learn new things and research different technology. Then I combine the
 ## Experience
 #### Paradise Soft | Front-end Developer | 2020 March - current
 
-▼ Milestone：
-◎ Progressively refactor Knockout to Vue framework to achieve separation of front-end and back-end.
+▼ Milestone：  
+◎ Progressively refactor Knockout to Vue framework to achieve separation of front-end and back-end.  
 
-◎ Import Vue3 ＆ Vite into new project, reduce work schedule and optimize front-end performance.
+◎ Import Vue3 ＆ Vite into new project, reduce work schedule and optimize front-end performance.  
 
-◎ Import TypeScript to fixed message structure on Chat System and make full use of the VS Code tooling feature.
+◎ Import TypeScript to fixed message structure on Chat System and make full use of the VS Code tooling feature.  
 
-◎ Implement fragment caching system for chat APP to improve performance and reduce network data.
+◎ Implement fragment caching system for chat APP to improve performance and reduce network data.  
 
-◎ Assist the team to import the Unit Test and achieving more than 85% code coverage.
+◎ Assist the team to import the Unit Test and achieving more than 85% code coverage.  
 
-◎ Set up CI/CD script and optimize dockerfile layer.
+◎ Set up CI/CD script and optimize dockerfile layer.  
 
-◎ Import i18n and create language json package / integration back-end messages / split custom templates for specific languages.
+◎ Import i18n and create language json package / integration back-end messages / split custom templates for specific languages.  
 
-◎ Implemented the GUI setting of the intelligent customer service to improve the user experience.
+◎ Implemented the GUI setting of the intelligent customer service to improve the user experience.  
 
-◎ Integrate Jira API to customize the worklog display interface.
+◎ Integrate Jira API to customize the worklog display interface.  
 
 ▼ Responsible for：
-1. Instant Messaging Application
-core tech：Vue3／TypeScript／Pinia／Vite／Docker／Jenkins
+1. Instant Messaging Application  
+core tech：Vue3／TypeScript／Pinia／Vite／Docker／Jenkins  
 
-2. Customer Service Representive Application
-core tech：Vue／Vuex／Element UI／Jest／i18n／Webpack／Docker／Rancher
+2. Customer Service Representive Application  
+core tech：Vue／Vuex／Element UI／Jest／i18n／Webpack／Docker／Rancher  
 
-3. Jira Issue Order Management System
-core tech：Vue／Antd UI／Echarts／Webpack／Docker／Rancher
+3. Jira Issue Order Management System  
+core tech：Vue／Antd UI／Echarts／Webpack／Docker／Rancher  
 
-4. Lottery Draw Website
-core tech：Nuxt／Linux／Echarts／Canvas
+4. Lottery Draw Website  
+core tech：Nuxt／Linux／Echarts／Canvas  
 
-5. Lottery Official Website ＆ Backstage
-core tech：Knockout／Golang／Vue／Linux／Jenkins
+5. Lottery Official Website ＆ Backstage  
+core tech：Knockout／Golang／Vue／Linux／Jenkins  
 
 #### CIC CORP. | Front-end Developer | Nov, 2019 – Jan, 2020
 * Refactoring Lottrey Web framework.
